@@ -1,0 +1,13 @@
+# ignore documentation and stuff
+README.md 
+LISCENSE
+.gitignore
+.stow-local-ignore
+
+# ignore git stuff
+.git 
+.gitmodules 
+
+# ignore extra stuff 
+scripts
+manual-configs
