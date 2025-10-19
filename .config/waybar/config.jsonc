@@ -39,12 +39,14 @@
   "sway/workspaces": {
     "persistent-workspaces": { "1":["DP-2"],"2":["HDMI-A-1"],"3":["DP-3"]}
   },
+
   "sway/scratchpad": {
     "format": "{icon} {count}",
     "show-empty": false,
     "format-icons": ["", ""],
     "tooltip": false
   },
+
   "sway/mode": {
     "format": "<span style=\"italic\">{}</span>"
   },
