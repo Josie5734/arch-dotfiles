@@ -9,17 +9,18 @@
 # run sway notification center for notifications
 exec swaync
 
-# run sway idle (lockscreen after 10 mins, monitors off after 20) 
+# run sway idle (lockscreen after 15 mins, monitors off after 30) 
 exec swayidle -w \
-  timeout 600 'swaylock -f' \
-  timeout 1200 'swaymsg "output * dpms off"' \
-    resume 'swaymsg "output + dpms on"' \
+  timeout 900 'swaylock -f' \
+  timeout 1800 'swaymsg "output * dpms off"' \
+  resume 'swaymsg "output * dpms on"' \
   before-sleep 'swaylock -f'
 
 #
 ### run playerctl daemon for play-pause key
 exec playerctld daemon
 
+# set font
 font pango:JetBrains Mono Nerd 12
 
 ### Variables
@@ -60,7 +61,8 @@ workspace 2 output HDMI-A-1
 workspace 1 output DP-2
 #
 # workspace 3 on monitor 3 (right)
-workspace 3 output DP-3
+workspace 3 output DP-3 
+exec swaymsg 'workspace 3; layout splitv'
 
 
 
@@ -126,9 +128,8 @@ workspace 3 output DP-3
 
     # lock screen 
     bindsym $mod+Delete exec swaylock
-    # turn monitors off/on
-    bindsym $mod+Page_Up exec 'swaymsg "output * dpms on"'
-    bindsym $mod+Page_Down exec 'swaymsg "output * dpms off"'
+    # toggle monitors
+    bindsym $mod+End exec swaymsg output DP-2 power toggle && swaymsg output DP-3 power toggle && swaymsg output HDMI-A-1 power toggle
 #
 # Moving around:
 #

@@ -64,6 +64,7 @@ window#waybar {
 }
 
 #keybidle {
+  margin-right: 10px;
   padding-left: 5px;
   border: 2px solid @mauve;
   border-radius: 5px;

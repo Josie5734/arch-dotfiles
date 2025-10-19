@@ -115,3 +115,7 @@ getBranch() {
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias icat="kitten icat"
+
+# nvim configs 
+alias v="nvim" # shortened nvim
+alias nvchad="NVIM_APPNAME=nvim-nvchad nvim" # nvchad
