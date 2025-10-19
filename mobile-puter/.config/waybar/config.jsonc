@@ -1,0 +1,172 @@
+// -*- mode: jsonc -*-
+{
+  "layer": "top",
+  "position": "top",
+  "mode": "dock",
+  "margin-left": 14,
+  "margin-right": 14,
+  "margin-top": 10,
+  "margin-bottom": 0,
+  "spacing": 5,
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  "reload_style_on_change": true,
+ 
+	//modules to use
+	"modules-left": [
+    "custom/archleft",
+		"sway/workspaces",
+		"sway/scratchpad"
+	],
+	"modules-center": [
+    "group/keybidle",
+    "clock#day",
+		"clock#mins",
+		"clock#date",
+    "pulseaudio"
+	],
+  "modules-right": [
+    "network",
+    "group/hardware",
+    "custom/archright"
+  ],
+
+
+
+  // Left Modules // 
+
+  "sway/workspaces": {
+    "persistent-workspaces": { "1":["DP-2"],"2":["HDMI-A-1"],"3":["DP-3"]}
+  },
+
+  "sway/scratchpad": {
+    "format": "{icon} {count}",
+    "show-empty": false,
+    "format-icons": ["", ""],
+    "tooltip": false
+  },
+
+  "sway/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
+
+  //Left Modules // 
+
+
+
+  // Middle Modules//
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": " ",
+      "deactivated": " "
+    }
+  },
+  
+  "keyboard-state": {
+    "numlock": false,
+    "capslock": true,
+    "format": "{icon}",
+    "format-icons": {
+      "locked": "󰬈 ",
+      "unlocked": "󰬈 "
+    }
+  },
+
+  "group/keybidle": {
+    "orientation": "horizontal",
+    "modules": [
+      "idle_inhibitor",
+      "keyboard-state"
+    ]
+  },
+
+	//clock modules
+  "clock#day": {
+    "format": "{:%a}",
+    "tooltip": false
+  },
+  "clock#mins": {
+    "format": "{:%H:%M}",
+    "tooltip": false
+  },
+  "clock#date": {
+    "format": "{:%m-%d}",
+    "tooltip": false
+  },
+  //
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "scroll-step": 1,
+    "on-click": "pwvucontrol"
+  },
+  
+  // Middle Modules//
+
+
+
+  // Right Modules // 
+
+  "network": {
+    "format-ethernet": "󱡷",
+    "format-disconnected": "󱡷",
+    "rotate": 90, //rotate icon
+    "tooltip": true,
+    "tooltip-format": "{bandwidthDownBits}",
+    "interval": 3
+  },
+
+  "memory": {
+    "format": " {}%",
+    "interval": 5
+  },
+  "custom/gpu": {
+    "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
+    "format": "󰢮 {}% ",
+    "interval": 5
+  },
+  "cpu": {
+    "format": " {usage}% ",
+    "tooltip": "false",
+    "interval": 5
+  },
+
+  "group/hardware": {
+    "orientation": "horizontal",
+    "modules": [
+      "cpu",
+      "custom/gpu",
+      "memory"
+    ]
+  },
+
+  // Right Modules // 
+
+// add arch logo to power, define colors and group drawer stuff
+
+  // Arch Power Modules // 
+
+  //padding modules to pad space between the bar border and the modules
+  "custom/archleft": {
+    "on-click": "reboot",
+    "format": "{icon}",
+    "format-icons": ["󰣇 "],
+    "interval": "once",
+    "tooltip": "true",
+    "tooltip-format": "reboot"
+  },
+
+  "custom/archright": {
+    "on-click": "shutdown",
+    "format": "{icon}",
+    "format-icons": ["󰣇 "],
+    "interval": "once",
+    "tooltip": "true",
+    "tooltip-format": "shutdown"
+  }
+  // Arch Power Modules // 
+
+}
