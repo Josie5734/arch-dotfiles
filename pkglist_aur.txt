@@ -1,0 +1,4 @@
+adwaita-qt5-git
+adwaita-qt-6-git
+pwvucontrol
+swaylock-effects-git

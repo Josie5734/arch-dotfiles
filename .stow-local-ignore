@@ -12,6 +12,7 @@ LISCENSE
 scripts
 manual-configs
 pkglist.txt
+pkglist_aur.txt
 
 #ignore puter specific stuff
 puter
