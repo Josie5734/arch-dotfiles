@@ -9,10 +9,10 @@
 # run sway notification center for notifications
 exec swaync
 
-# run sway idle (lockscreen after 15 mins, monitors off after 30) 
+# run sway idle (lockscreen after 10 mins, monitors off after 15) 
 exec swayidle -w \
-  timeout 900 'swaylock -f' \
-  timeout 1800 'swaymsg "output * dpms off"' \
+  timeout 600 'swaylock -f' \
+  timeout 900 'swaymsg "output * dpms off"' \
   resume 'swaymsg "output * dpms on"' \
   before-sleep 'swaylock -f'
 
@@ -43,26 +43,12 @@ set $menu fuzzel
 #
 ### Monitor Setup 
 #
-# monitor 1 (middle)
-output HDMI-A-1 resolution 1920x1080@100Hz position 1920 0
+output eDP-1 resolution 1920x1080 position 0 0 
 #
-# monitor 2 (left)
-output DP-2 resolution 1920x1080 position 0 0 
+### default workspace on start up 
 #
-# monitor  3 (right)(vertical)
-output DP-3 resolution 1920x1080 position 3840 0 transform 270
-#
-### default workspaces on start up (numbers go left to right)
-#
-# workspace 2 on monitor 1 (middle)
-workspace 2 output HDMI-A-1
-#
-# workspace 1 on monitor 2 (left)
-workspace 1 output DP-2
-#
-# workspace 3 on monitor 3 (right)
-workspace 3 output DP-3 
-exec swaymsg 'workspace 3; layout splitv'
+# workspace 1 on main laptop screen 
+workspace 1 output eDP-1
 
 
 
@@ -82,16 +68,22 @@ exec swaymsg 'workspace 3; layout splitv'
 ### Input configuration
 
 # mouse - disable acceleration use slowest speed
-   input type:pointer {
-       accel_profile flat
-       pointer_accel 0
-   }
+input type:pointer {
+  accel_profile flat
+    pointer_accel 0
+}
 
 # keyboard layout
-   input type:keyboard {
-       xkb_layout "gb"
-   }
+input type:keyboard {
+  xkb_layout "gb"
+}
 
+# laptop touchpad
+input type:touchpad {
+  tap enabled
+  natural_scroll enabled
+  middle_emulation enabled
+}
 # You can also configure each device individually.
 # Read `man 5 sway-input` for more information about this section.
 
@@ -128,8 +120,6 @@ exec swaymsg 'workspace 3; layout splitv'
 
     # lock screen 
     bindsym $mod+Delete exec swaylock
-    # toggle monitors
-    bindsym $mod+End exec swaymsg output DP-2 power toggle && swaymsg output DP-3 power toggle && swaymsg output HDMI-A-1 power toggle
 #
 # Moving around:
 #
@@ -161,7 +151,7 @@ exec swaymsg 'workspace 3; layout splitv'
     bindsym $mod+1 workspace number 1
     bindsym $mod+2 workspace number 2
     bindsym $mod+3 workspace number 3
-    bindsym $mod+4 workspace number 4
+
     bindsym $mod+5 workspace number 5
     bindsym $mod+6 workspace number 6
     bindsym $mod+7 workspace number 7
@@ -181,11 +171,6 @@ exec swaymsg 'workspace 3; layout splitv'
     bindsym $mod+Shift+0 move container to workspace number 10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
-
-    # move focused window to the monitor
-    bindsym $mod+Ctrl+1 move container to output DP-2 
-    bindsym $mod+Ctrl+2 move container to output HDMI-A-1 
-    bindsym $mod+Ctrl+3 move container to output DP-3 
 
     # workspace back and forth (go from a workspace to another and then back by pressing the number twice)
     workspace_auto_back_and_forth yes

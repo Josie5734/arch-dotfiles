@@ -111,21 +111,18 @@
   // Right Modules // 
 
   "network": {
-    "format-ethernet": "󱡷",
-    "format-disconnected": "󱡷",
-    "rotate": 90, //rotate icon
+    "interface": "wlp1s0",
+    "format-wifi": "󰖩 ",
+    "format-ethernet": "󰌗 ",
+    "format-disconnected": "󰖩 ",
+    "format-ethernet": "󰌗 ",
     "tooltip": true,
-    "tooltip-format": "{bandwidthDownBits}",
-    "interval": 3
+    "tooltip-format": "{essid}",
+    "interval": 5
   },
 
   "memory": {
     "format": " {}%",
-    "interval": 5
-  },
-  "custom/gpu": {
-    "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
-    "format": "󰢮 {}% ",
     "interval": 5
   },
   "cpu": {
@@ -138,7 +135,6 @@
     "orientation": "horizontal",
     "modules": [
       "cpu",
-      "custom/gpu",
       "memory"
     ]
   },

@@ -100,7 +100,7 @@ window#waybar {
 /* Right Modules */
 
 #network {
-  padding: 0px 3px 0px 3px;
+  padding: 0px 0px 0px 5px;
   border: 2px solid @mauve;
   border-radius: 5px;
   color: @green;
