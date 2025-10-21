@@ -99,6 +99,8 @@ input type:touchpad {
 
     # Start your launcher
     bindsym $mod+d exec $menu
+    # start launcher in dmenu mode for shell commands
+    bindsym $mod+Shift+d exec $menu --dmenu | xargs -r zsh -c
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -264,6 +266,7 @@ bar {
 }
 
 include /etc/sway/config.d/*
+include ~/.config/sway/local.conf
 
 
 #

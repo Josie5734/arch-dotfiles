@@ -114,6 +114,11 @@ getBranch() {
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# dont correct 'hostname'
+alias hostname='nocorrect hostname'
+
+# shorten icat
 alias icat="kitten icat"
 
 # nvim configs 
