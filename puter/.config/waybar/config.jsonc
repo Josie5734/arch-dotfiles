@@ -151,21 +151,19 @@
 
   //padding modules to pad space between the bar border and the modules
   "custom/archleft": {
-    "on-click": "reboot",
     "format": "{icon}",
     "format-icons": ["󰣇 "],
     "interval": "once",
-    "tooltip": "true",
-    "tooltip-format": "reboot"
+    "tooltip": "false",
+    "tooltip-format": ""
   },
 
   "custom/archright": {
-    "on-click": "shutdown",
     "format": "{icon}",
     "format-icons": ["󰣇 "],
     "interval": "once",
-    "tooltip": "true",
-    "tooltip-format": "shutdown"
+    "tooltip": "false",
+    "tooltip-format": ""
   }
   // Arch Power Modules // 
 
