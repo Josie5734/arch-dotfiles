@@ -119,6 +119,28 @@ window#waybar {
   color: @green;
 }
 
+#backlight {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#battery.charging {
+  color: @green;
+}
+#battery.warning {
+  color: @yellow;
+}
+#battery.critical {
+  color: @red;
+}
+
+#laptop {
+  border: 2px solid @mauve;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 #hardware {
  border: 2px solid @mauve;
  border-radius: 5px;
