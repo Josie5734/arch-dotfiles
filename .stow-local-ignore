@@ -11,6 +11,7 @@ LISCENSE
 # ignore extra stuff 
 scripts
 manual-configs
+images
 pkglist.txt
 pkglist_aur.txt
 
