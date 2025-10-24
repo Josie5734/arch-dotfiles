@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Pico-8
+Exec=~/pico-8/pico8
+Icon=~/pico-8/lexaloffle-pico8.png
+Type=Application
