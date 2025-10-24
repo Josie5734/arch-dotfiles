@@ -124,3 +124,4 @@ alias icat="kitten icat"
 # nvim configs 
 alias v="nvim" # shortened nvim
 alias nvchad="NVIM_APPNAME=nvim-nvchad nvim" # nvchad
+alias radvim="NVIM_APPNAME=nvim-rad nvim" # radvim
