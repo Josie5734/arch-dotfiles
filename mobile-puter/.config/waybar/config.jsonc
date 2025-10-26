@@ -124,6 +124,8 @@
   },
 
   "temperature": {
+	"thermal-zone": 0,
+	"hwmon-path": "/sys/class/thermal/thermal_zone1/temp",
     "format": " {temperatureC}C"
   },
 
