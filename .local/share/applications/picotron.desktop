@@ -1,5 +1,5 @@
 [Desktop Entry]
 Name=Picotron
-Exec=./apps/picotron/picotron/picotron
+Exec=./apps/picotron/picotron
 Icon=~/apps/pico-8/lexaloffle-picotron.png
 Type=Application
