@@ -1,5 +1,13 @@
 {
   "plugins": {
+    "blink.cmp": {
+      "rev": "2408f14",
+      "src": "https://github.com/Saghen/blink.cmp"
+    },
+    "conform.nvim": {
+      "rev": "26c02e1",
+      "src": "https://github.com/stevearc/conform.nvim"
+    },
     "mason.nvim": {
       "rev": "ad7146a",
       "src": "https://github.com/mason-org/mason.nvim"

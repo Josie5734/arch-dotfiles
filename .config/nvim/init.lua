@@ -54,6 +54,8 @@ vim.pack.add({                                         --install plugins list
 	{ src = "https://github.com/catppuccin/nvim" },    --colorscheme
 	{ src = "https://github.com/mason-org/mason.nvim" }, --mason for auto install lsps
 	{ src = "https://github.com/neovim/nvim-lspconfig" }, --auto provide lsp configs
+	{ src = "https://github.com/stevearc/conform.nvim" }, --conform, for linters,formatters etc
+	{ src = "https://github.com/Saghen/blink.cmp" },   --blink
 	{ src = "https://github.com/stevearc/oil.nvim" },  --oil
 	{ src = "https://github.com/folke/which-key.nvim" }, --which key finder
 	--modules from the "mini" set of neovim plugins
@@ -69,9 +71,28 @@ require("mini.pairs").setup()          --mini pairs setup
 require("mini.git").setup()            --mini git setup
 require("oil").setup()                 --oil setup
 
---lsps
+--lsps, formatters, linters etc
 require("mason").setup()                --setup mason
 vim.lsp.enable({ "lua_ls", "pyright" }) --enable lsps
+
+--conform linter / formatter setup
+require("conform").setup({
+	format_by_ft = {
+		python = { "ruff" },
+	},
+	format_on_save = {
+		lsp_fallback = true, --use lsp if no formatter
+		async = false, --no asynchronus formatting
+	}
+})
+
+--format on save
+vim.api.nvim_create_autocmd("BufWritePre", {
+	pattern = "*",
+	callback = function(args)
+		require("conform").format({ bufnr = args.buf })
+	end,
+})
 
 --plugin keybinds
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { desc = "Language Format" }) --language format
