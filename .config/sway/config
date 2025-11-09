@@ -229,13 +229,6 @@ bar {
 
 
 
-### window rules
-
-# make keepass go to scratchpad when opened (exclude the password input window)
-for_window [title="Database.kdbx - KeePass"] move scratchpad
-
-
-
 #sway thingy idk what it does but is necessary
 include /etc/sway/config.d/*
 
