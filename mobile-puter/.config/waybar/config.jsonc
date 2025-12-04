@@ -116,7 +116,7 @@
     "interface": "wlp1s0",
     "format-wifi": "󰖩 ",
     "format-ethernet": "󰌗 ",
-    "format-disconnected": "󰖩 ",
+    "format-disconnected": "󰖩",
     "format-ethernet": "󰌗 ",
     "tooltip": true,
     "tooltip-format": "{essid}",

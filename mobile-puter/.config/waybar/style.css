@@ -108,7 +108,7 @@ window#waybar {
 }
 
 #network.disconnected {
-  padding: 0px 3px 0px 3px;
+  padding: 0px 10px 0px 3px;
   border: 2px solid @mauve;
   border-radius: 5px;
   color: @red;
