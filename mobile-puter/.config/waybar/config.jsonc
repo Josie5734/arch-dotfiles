@@ -94,7 +94,7 @@
     "tooltip": false
   },
   "clock#date": {
-    "format": "{:%m-%d}",
+    "format": "{:%d-%m}",
     "tooltip": false
   },
   //
