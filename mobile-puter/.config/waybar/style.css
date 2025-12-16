@@ -49,6 +49,16 @@ window#waybar {
 	color: @text;
 }
 
+#mpris {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0px 5px 0px 5px;
+	background-color: transparent;
+	border: 2px solid @mauve;
+	border-radius: 5px;
+	color: @text;
+}
+
 /* Left Modules */ 
 
 

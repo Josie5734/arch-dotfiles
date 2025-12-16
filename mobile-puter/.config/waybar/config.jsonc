@@ -16,8 +16,9 @@
 	//modules to use
 	"modules-left": [
     "custom/archleft",
-		"sway/workspaces",
-		"sway/scratchpad"
+	"sway/workspaces",
+	"sway/scratchpad",
+	"mpris"
 	],
 	"modules-center": [
     "group/keybidle",
@@ -50,6 +51,19 @@
 
   "sway/mode": {
     "format": "<span style=\"italic\">{}</span>"
+  },
+
+  "mpris": {
+	  "format": "{player_icon} {title} - {artist} - [{position}/{length}]",
+	  "format-paused": "{status_icon} <i>{dynamic</i>}",
+	  "player-icons": {
+		  "default": "▶",
+		  "mpv": "🎵"
+	  },
+	  "status-icons": {
+		  "paused": "⏸"
+	  },
+	  "interval": 1
   },
 
   //Left Modules // 
