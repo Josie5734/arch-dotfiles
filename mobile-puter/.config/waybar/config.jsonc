@@ -54,11 +54,11 @@
   },
 
   "mpris": {
-	  "format": "{player_icon} {title} - {artist} - [{position}/{length}]",
-	  "format-paused": "{status_icon} <i>{dynamic</i>}",
+	  "format": "[{player_icon}] {title} - [{position}/{length}]",
+	  "format-paused": "[{status_icon}] {title - [{position}/{length}]",
 	  "player-icons": {
-		  "default": "▶",
-		  "mpv": "🎵"
+		  "default": "🎵",
+		  "mpv": "▶"
 	  },
 	  "status-icons": {
 		  "paused": "⏸"
