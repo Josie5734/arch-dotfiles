@@ -6,7 +6,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Set dark theme for GTK and QT
 export GTK_THEME=Adwaita:Dark
-export QT_STYLE_OVERRIDE=Adwaita-Dark
 export QT_QPA_PLATFORMTHEME=qt6ct
 
 # Set default editor to neovim

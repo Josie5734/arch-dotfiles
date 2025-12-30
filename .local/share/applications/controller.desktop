@@ -5,3 +5,5 @@ Name=controller
 Exec=kitty -e ds4drv
 
 Icon=controller
+
+Type=Apllication
