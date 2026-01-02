@@ -1,9 +1,9 @@
 [Desktop Entry]
 
-Name=controller
+Name=ds4drv
 
-Exec=kitty -e ds4drv
+Exec=python /home/josie/scripts/ds4drv.py
 
 Icon=controller
 
-Type=Apllication
+Type=Application

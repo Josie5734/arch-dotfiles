@@ -130,3 +130,6 @@ alias radvim="NVIM_APPNAME=nvim-rad nvim" # radvim
 alias carts="cd ~/.lexaloffle/pico-8/carts/" # cd into carts dir
 alias pico8="./apps/pico-8/pico8" # global shortcut to run pico-8
 alias picotron="./apps/picotron/picotron" # global shortcut to run picotron
+
+# Created by `pipx` on 2026-01-01 13:46:50
+export PATH="$PATH:/home/josie/.local/bin"
