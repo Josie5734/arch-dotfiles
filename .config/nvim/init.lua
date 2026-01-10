@@ -211,6 +211,8 @@ vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = 'Write file' })
 vim.keymap.set('n', '<leader>x', ':x<CR>', { desc = 'Write and exit' })
 vim.keymap.set('n', '<leader>q', ':q<CR>', { desc = 'Quit' })
 
+vim.keymap.set('n', '<F5>', ':w | !love %:h<CR>', { desc = 'Run LOVE2D' })
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
@@ -708,6 +710,25 @@ require('lazy').setup({
               },
               -- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
               -- diagnostics = { disable = { 'missing-fields' } },
+              --
+              runtime = {
+                version = 'LuaJIT',
+              },
+
+              diagnostics = {
+                globals = { 'love' },
+              },
+
+              workspace = {
+                library = {
+                  -- LOVE2D API
+                  [vim.fn.expand '~/.config/love-api'] = true,
+
+                  -- (optional but recommended)
+                  [vim.fn.expand '$VIMRUNTIME/lua'] = true,
+                  [vim.fn.stdpath 'config' .. '/lua'] = true,
+                },
+              },
             },
           },
         },
