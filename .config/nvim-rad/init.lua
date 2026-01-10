@@ -1,7 +1,0 @@
-require("josie.core.options")
-require("josie.core.keymaps")
-require("josie.core.autocommands")
-require("josie.core.terminal")
-require("josie.core.statusline")
-require("josie.core.tabs")
---require("josie.plugins")
