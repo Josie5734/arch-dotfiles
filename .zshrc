@@ -123,8 +123,7 @@ alias icat="kitten icat"
 
 # nvim configs 
 alias v="nvim" # shortened nvim
-alias nvchad="NVIM_APPNAME=nvim-nvchad nvim" # nvchad
-alias radvim="NVIM_APPNAME=nvim-rad nvim" # radvim
+alias kickstart="NVIM_APPNAME=nvim-kickstart nvim" # kickstart.nvim
 
 # pico 8 shortcuts
 alias carts="cd ~/.lexaloffle/pico-8/carts/" # cd into carts dir
