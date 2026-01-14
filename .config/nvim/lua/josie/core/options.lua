@@ -8,6 +8,8 @@ local opt = vim.opt --shorten commands so dont have to type "vim" every time
 opt.relativenumber = true --relative line numbers
 opt.number = true --absolute line number for cursor
 opt.cursorline = true --highlight line that cursor is on
+opt.scrolloff = 10 --keep the cursor X lines from the top/bottom of the page
+opt.sidescrolloff = 10 --keep the cursor X lines from the side of the page
 
 --tabs and indentation
 opt.tabstop = 2 --tabs are 2 spaces
@@ -32,7 +34,7 @@ opt.backspace = "indent,eol,start" --allow backspace on indent, end of line or i
 opt.clipboard:append("unnamedplus") --use system clipboard as default register
 
 --split windows
-opt.splitright = true --split vertical window to right 
+opt.splitright = true --split vertical window to right
 opt.splitbelow = true --split horizontal window to bottom
 
 --swapfile + undo
