@@ -192,21 +192,21 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][31][Applets][36][Applets][52][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][31][Applets][36][Applets][53]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][31][Applets][36][Applets][53][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][31][Applets][36][Applets][54]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][31][Applets][36][Applets][54][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][31][Applets][36][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
@@ -350,21 +350,21 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][58][Applets][62][Applets][76][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][58][Applets][62][Applets][77]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][58][Applets][62][Applets][77][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][58][Applets][62][Applets][78]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][58][Applets][62][Applets][78][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][58][Applets][62][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
@@ -472,21 +472,21 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][82][Applets][86][Applets][100][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][82][Applets][86][Applets][101]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][82][Applets][86][Applets][101][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][82][Applets][86][Applets][102]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][82][Applets][86][Applets][102][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][82][Applets][86][Applets][106]
 immutability=1
