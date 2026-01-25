@@ -1,0 +1,89 @@
+2025-12-18 11:27:26.712 [info] Extension host with pid 11488 started
+2025-12-18 11:27:26.712 [info] Skipping acquiring lock for /home/josie/.config/Code/User/workspaceStorage/219d6bac0c05eb073ca8e9259ec5c784.
+2025-12-18 11:27:27.221 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-18 11:27:27.265 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-18 11:27:27.293 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-18 11:27:27.314 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-18 11:27:27.797 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-18 11:27:27.929 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-18 11:27:28.100 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-18 11:27:28.749 [info] Eager extensions activated
+2025-12-18 11:27:28.997 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 11:27:29.002 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 11:27:29.038 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 11:27:29.058 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-12-18 11:27:51.341 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-12-18 11:29:22.992 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-18 11:29:23.028 [info] Extension host with pid 11488 exiting with code 0
+2025-12-18 11:30:27.088 [info] Extension host with pid 13005 started
+2025-12-18 11:30:27.088 [info] Skipping acquiring lock for /home/josie/.config/Code/User/workspaceStorage/a4f5a15d6ddeb077e5bc13e669a9d8a5.
+2025-12-18 11:30:27.258 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-18 11:30:27.310 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-18 11:30:27.338 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-18 11:30:27.360 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-18 11:30:27.522 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-12-18 11:30:27.534 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-18 11:30:27.558 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-12-18 11:30:27.660 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-12-18 11:30:27.915 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-12-18 11:30:28.283 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-12-18 11:30:28.394 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-18 11:30:28.767 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-12-18 11:30:28.996 [info] Eager extensions activated
+2025-12-18 11:30:29.011 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 11:30:29.019 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 11:30:29.057 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 11:30:29.148 [warning] [Decorations] CAPPING events from decorations provider vscode.git 443
+2025-12-18 11:30:29.345 [warning] [Decorations] CAPPING events from decorations provider vscode.git 443
+2025-12-18 11:30:50.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 443
+2025-12-18 13:23:10.868 [warning] [Decorations] CAPPING events from decorations provider vscode.git 443
+2025-12-18 13:23:32.569 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-18 13:24:02.310 [warning] [Decorations] CAPPING events from decorations provider vscode.git 443
+2025-12-18 13:25:43.734 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-18 13:25:43.777 [info] Extension host with pid 13005 exiting with code 0
+2025-12-18 13:25:47.355 [info] Extension host with pid 14971 started
+2025-12-18 13:25:47.355 [info] Skipping acquiring lock for /home/josie/.config/Code/User/workspaceStorage/219d6bac0c05eb073ca8e9259ec5c784.
+2025-12-18 13:25:47.694 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-18 13:25:47.770 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-18 13:25:47.803 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-18 13:25:47.827 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-18 13:25:48.528 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-18 13:25:48.638 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-18 13:25:48.748 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-18 13:25:48.971 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-12-18 13:25:49.208 [info] Eager extensions activated
+2025-12-18 13:25:49.294 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 13:25:49.300 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 13:25:49.340 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 13:25:59.832 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-18 13:25:59.859 [info] Extension host with pid 14971 exiting with code 0
+2025-12-18 13:26:02.148 [info] Extension host with pid 15072 started
+2025-12-18 13:26:02.148 [info] Skipping acquiring lock for /home/josie/.config/Code/User/workspaceStorage/69a2c3f074d8d62358ae353eb46093bc.
+2025-12-18 13:26:02.406 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-18 13:26:02.461 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-18 13:26:02.503 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-12-18 13:26:02.973 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-12-18 13:26:03.835 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-12-18 13:26:04.216 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-18 13:26:04.331 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-18 13:26:04.772 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-18 13:26:04.864 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-18 13:26:05.178 [info] Eager extensions activated
+2025-12-18 13:26:05.182 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-12-18 13:26:05.296 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 13:26:05.300 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 13:26:05.337 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-12-18 13:26:06.844 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-18 13:26:06.905 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.G [as deactivate] (/home/josie/.vscode/extensions/ms-python.vscode-python-envs-1.14.0-linux-x64/dist/extension.js:2:684166)
+	at HX.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+	at Array.map (<anonymous>)
+	at HX.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+	at HX.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+	at yN.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at Us (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:11129)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:7604)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-12-18 13:26:06.938 [info] Extension host with pid 15072 exiting with code 0

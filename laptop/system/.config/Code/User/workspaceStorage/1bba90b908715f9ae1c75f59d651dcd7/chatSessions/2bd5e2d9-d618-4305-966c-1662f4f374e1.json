@@ -1,0 +1,1577 @@
+{
+  "version": 3,
+  "requesterUsername": "Josie5734",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/219572831",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "editor",
+  "requests": [
+    {
+      "requestId": "request_580b4d72-dada-4906-af32-17e1181454d3",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 26
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 27
+            },
+            "text": "starting layout for pyqt6 ",
+            "kind": "text"
+          }
+        ],
+        "text": "starting layout for pyqt6 "
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/josie/Documents/programming/python/pestprofessor/main.py",
+            "external": "file:///home/josie/Documents/programming/python/pestprofessor/main.py",
+            "path": "/home/josie/Documents/programming/python/pestprofessor/main.py",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "#!/usr/bin/env python3",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 1,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n\"\"\"",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 23,
+                  "endLineNumber": 1,
+                  "endColumn": 23
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nSimple starting layout for a PyQt6 application.",
+                "range": {
+                  "startLineNumber": 2,
+                  "startColumn": 4,
+                  "endLineNumber": 2,
+                  "endColumn": 4
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nSave as /home/josie/Documents/programming/python/pestprofessor/main.py",
+                "range": {
+                  "startLineNumber": 3,
+                  "startColumn": 48,
+                  "endLineNumber": 3,
+                  "endColumn": 48
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n\"\"\"",
+                "range": {
+                  "startLineNumber": 4,
+                  "startColumn": 71,
+                  "endLineNumber": 4,
+                  "endColumn": 71
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 5,
+                  "startColumn": 4,
+                  "endLineNumber": 5,
+                  "endColumn": 4
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nfrom PyQt6.QtWidgets import (",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 1,
+                  "endLineNumber": 6,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    QApplication, QMainWindow, QPlainTextEdit, QFileDialog,",
+                "range": {
+                  "startLineNumber": 7,
+                  "startColumn": 30,
+                  "endLineNumber": 7,
+                  "endColumn": 30
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    QMessageBox, QToolBar, QStatusBar, QAction, QWidget, QVBoxLayout",
+                "range": {
+                  "startLineNumber": 8,
+                  "startColumn": 60,
+                  "endLineNumber": 8,
+                  "endColumn": 60
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n)",
+                "range": {
+                  "startLineNumber": 9,
+                  "startColumn": 69,
+                  "endLineNumber": 9,
+                  "endColumn": 69
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 10,
+                  "startColumn": 2,
+                  "endLineNumber": 10,
+                  "endColumn": 2
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 11,
+                  "startColumn": 1,
+                  "endLineNumber": 11,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nclass MainWindow(QMainWindow):",
+                "range": {
+                  "startLineNumber": 12,
+                  "startColumn": 1,
+                  "endLineNumber": 12,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def __init__(self):",
+                "range": {
+                  "startLineNumber": 13,
+                  "startColumn": 31,
+                  "endLineNumber": 13,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        super().__init__()",
+                "range": {
+                  "startLineNumber": 14,
+                  "startColumn": 24,
+                  "endLineNumber": 14,
+                  "endColumn": 24
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.current_file: Path | None = None",
+                "range": {
+                  "startLineNumber": 15,
+                  "startColumn": 27,
+                  "endLineNumber": 15,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.setWindowTitle(\"PestProfessor\")",
+                "range": {
+                  "startLineNumber": 16,
+                  "startColumn": 46,
+                  "endLineNumber": 16,
+                  "endColumn": 46
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.resize(900, 600)",
+                "range": {
+                  "startLineNumber": 17,
+                  "startColumn": 45,
+                  "endLineNumber": 17,
+                  "endColumn": 45
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self._create_actions()",
+                "range": {
+                  "startLineNumber": 18,
+                  "startColumn": 30,
+                  "endLineNumber": 18,
+                  "endColumn": 30
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self._create_menus_and_toolbar()",
+                "range": {
+                  "startLineNumber": 19,
+                  "startColumn": 31,
+                  "endLineNumber": 19,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self._create_central_widget()",
+                "range": {
+                  "startLineNumber": 20,
+                  "startColumn": 41,
+                  "endLineNumber": 20,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self._create_status_bar()",
+                "range": {
+                  "startLineNumber": 21,
+                  "startColumn": 38,
+                  "endLineNumber": 21,
+                  "endColumn": 38
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 22,
+                  "startColumn": 34,
+                  "endLineNumber": 22,
+                  "endColumn": 34
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def _create_actions(self) -> None:",
+                "range": {
+                  "startLineNumber": 23,
+                  "startColumn": 1,
+                  "endLineNumber": 23,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.open_act = QAction(\"Open...\", self, shortcut=\"Ctrl+O\", triggered=self.open_file)",
+                "range": {
+                  "startLineNumber": 24,
+                  "startColumn": 39,
+                  "endLineNumber": 24,
+                  "endColumn": 39
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.save_act = QAction(\"Save\", self, shortcut=\"Ctrl+S\", triggered=self.save_file)",
+                "range": {
+                  "startLineNumber": 25,
+                  "startColumn": 94,
+                  "endLineNumber": 25,
+                  "endColumn": 94
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.save_as_act = QAction(\"Save As...\", self, shortcut=\"Ctrl+Shift+S\", triggered=self.save_file_as)",
+                "range": {
+                  "startLineNumber": 26,
+                  "startColumn": 91,
+                  "endLineNumber": 26,
+                  "endColumn": 91
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.exit_act = QAction(\"Exit\", self, shortcut=\"Ctrl+Q\", triggered=self.close)",
+                "range": {
+                  "startLineNumber": 27,
+                  "startColumn": 109,
+                  "endLineNumber": 27,
+                  "endColumn": 109
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.about_act = QAction(\"About\", self, triggered=self.about)",
+                "range": {
+                  "startLineNumber": 28,
+                  "startColumn": 87,
+                  "endLineNumber": 28,
+                  "endColumn": 87
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 29,
+                  "startColumn": 70,
+                  "endLineNumber": 29,
+                  "endColumn": 70
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def _create_menus_and_toolbar(self) -> None:",
+                "range": {
+                  "startLineNumber": 30,
+                  "startColumn": 1,
+                  "endLineNumber": 30,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        file_menu = self.menuBar().addMenu(\"&File\")",
+                "range": {
+                  "startLineNumber": 31,
+                  "startColumn": 49,
+                  "endLineNumber": 31,
+                  "endColumn": 49
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        file_menu.addAction(self.open_act)",
+                "range": {
+                  "startLineNumber": 32,
+                  "startColumn": 52,
+                  "endLineNumber": 32,
+                  "endColumn": 52
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        file_menu.addAction(self.save_act)",
+                "range": {
+                  "startLineNumber": 33,
+                  "startColumn": 43,
+                  "endLineNumber": 33,
+                  "endColumn": 43
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        file_menu.addAction(self.save_as_act)",
+                "range": {
+                  "startLineNumber": 34,
+                  "startColumn": 43,
+                  "endLineNumber": 34,
+                  "endColumn": 43
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        file_menu.addSeparator()",
+                "range": {
+                  "startLineNumber": 35,
+                  "startColumn": 46,
+                  "endLineNumber": 35,
+                  "endColumn": 46
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        file_menu.addAction(self.exit_act)",
+                "range": {
+                  "startLineNumber": 36,
+                  "startColumn": 33,
+                  "endLineNumber": 36,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 37,
+                  "startColumn": 43,
+                  "endLineNumber": 37,
+                  "endColumn": 43
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        help_menu = self.menuBar().addMenu(\"&Help\")",
+                "range": {
+                  "startLineNumber": 38,
+                  "startColumn": 1,
+                  "endLineNumber": 38,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        help_menu.addAction(self.about_act)",
+                "range": {
+                  "startLineNumber": 39,
+                  "startColumn": 52,
+                  "endLineNumber": 39,
+                  "endColumn": 52
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 40,
+                  "startColumn": 44,
+                  "endLineNumber": 40,
+                  "endColumn": 44
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        toolbar = QToolBar(\"Main\")",
+                "range": {
+                  "startLineNumber": 41,
+                  "startColumn": 1,
+                  "endLineNumber": 41,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        toolbar.setMovable(False)",
+                "range": {
+                  "startLineNumber": 42,
+                  "startColumn": 35,
+                  "endLineNumber": 42,
+                  "endColumn": 35
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        toolbar.addAction(self.open_act)",
+                "range": {
+                  "startLineNumber": 43,
+                  "startColumn": 34,
+                  "endLineNumber": 43,
+                  "endColumn": 34
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        toolbar.addAction(self.save_act)",
+                "range": {
+                  "startLineNumber": 44,
+                  "startColumn": 41,
+                  "endLineNumber": 44,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.addToolBar(toolbar)",
+                "range": {
+                  "startLineNumber": 45,
+                  "startColumn": 41,
+                  "endLineNumber": 45,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 46,
+                  "startColumn": 33,
+                  "endLineNumber": 46,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def _create_central_widget(self) -> None:",
+                "range": {
+                  "startLineNumber": 47,
+                  "startColumn": 1,
+                  "endLineNumber": 47,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        container = QWidget()",
+                "range": {
+                  "startLineNumber": 48,
+                  "startColumn": 46,
+                  "endLineNumber": 48,
+                  "endColumn": 46
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        layout = QVBoxLayout()",
+                "range": {
+                  "startLineNumber": 49,
+                  "startColumn": 30,
+                  "endLineNumber": 49,
+                  "endColumn": 30
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.editor = QPlainTextEdit()",
+                "range": {
+                  "startLineNumber": 50,
+                  "startColumn": 31,
+                  "endLineNumber": 50,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.editor.setPlaceholderText(\"Start typing...\")",
+                "range": {
+                  "startLineNumber": 51,
+                  "startColumn": 39,
+                  "endLineNumber": 51,
+                  "endColumn": 39
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        layout.addWidget(self.editor)",
+                "range": {
+                  "startLineNumber": 52,
+                  "startColumn": 58,
+                  "endLineNumber": 52,
+                  "endColumn": 58
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        container.setLayout(layout)",
+                "range": {
+                  "startLineNumber": 53,
+                  "startColumn": 38,
+                  "endLineNumber": 53,
+                  "endColumn": 38
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.setCentralWidget(container)",
+                "range": {
+                  "startLineNumber": 54,
+                  "startColumn": 36,
+                  "endLineNumber": 54,
+                  "endColumn": 36
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 55,
+                  "startColumn": 41,
+                  "endLineNumber": 55,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def _create_status_bar(self) -> None:",
+                "range": {
+                  "startLineNumber": 56,
+                  "startColumn": 1,
+                  "endLineNumber": 56,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.status = QStatusBar()",
+                "range": {
+                  "startLineNumber": 57,
+                  "startColumn": 42,
+                  "endLineNumber": 57,
+                  "endColumn": 42
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.setStatusBar(self.status)",
+                "range": {
+                  "startLineNumber": 58,
+                  "startColumn": 35,
+                  "endLineNumber": 58,
+                  "endColumn": 35
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.status.showMessage(\"Ready\")",
+                "range": {
+                  "startLineNumber": 59,
+                  "startColumn": 39,
+                  "endLineNumber": 59,
+                  "endColumn": 39
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 60,
+                  "startColumn": 41,
+                  "endLineNumber": 60,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def open_file(self) -> None:",
+                "range": {
+                  "startLineNumber": 61,
+                  "startColumn": 1,
+                  "endLineNumber": 61,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        path, _ = QFileDialog.getOpenFileName(self, \"Open File\", \"\", \"Text Files (*.txt);;All Files (*)\")",
+                "range": {
+                  "startLineNumber": 62,
+                  "startColumn": 33,
+                  "endLineNumber": 62,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        if not path:",
+                "range": {
+                  "startLineNumber": 63,
+                  "startColumn": 106,
+                  "endLineNumber": 63,
+                  "endColumn": 106
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            return",
+                "range": {
+                  "startLineNumber": 64,
+                  "startColumn": 21,
+                  "endLineNumber": 64,
+                  "endColumn": 21
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        try:",
+                "range": {
+                  "startLineNumber": 65,
+                  "startColumn": 19,
+                  "endLineNumber": 65,
+                  "endColumn": 19
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            with open(path, \"r\", encoding=\"utf-8\") as f:",
+                "range": {
+                  "startLineNumber": 66,
+                  "startColumn": 13,
+                  "endLineNumber": 66,
+                  "endColumn": 13
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                self.editor.setPlainText(f.read())",
+                "range": {
+                  "startLineNumber": 67,
+                  "startColumn": 57,
+                  "endLineNumber": 67,
+                  "endColumn": 57
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            self.current_file = Path(path)",
+                "range": {
+                  "startLineNumber": 68,
+                  "startColumn": 51,
+                  "endLineNumber": 68,
+                  "endColumn": 51
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            self.status.showMessage(f\"Opened: {self.current_file.name}\", 5000)",
+                "range": {
+                  "startLineNumber": 69,
+                  "startColumn": 43,
+                  "endLineNumber": 69,
+                  "endColumn": 43
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            self.setWindowTitle(f\"PestProfessor — {self.current_file.name}\")",
+                "range": {
+                  "startLineNumber": 70,
+                  "startColumn": 79,
+                  "endLineNumber": 70,
+                  "endColumn": 79
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        except Exception as e:",
+                "range": {
+                  "startLineNumber": 71,
+                  "startColumn": 77,
+                  "endLineNumber": 71,
+                  "endColumn": 77
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            QMessageBox.critical(self, \"Error\", f\"Could not open file:\\n{e}\")",
+                "range": {
+                  "startLineNumber": 72,
+                  "startColumn": 31,
+                  "endLineNumber": 72,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 73,
+                  "startColumn": 78,
+                  "endLineNumber": 73,
+                  "endColumn": 78
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def save_file(self) -> None:",
+                "range": {
+                  "startLineNumber": 74,
+                  "startColumn": 1,
+                  "endLineNumber": 74,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        if not self.current_file:",
+                "range": {
+                  "startLineNumber": 75,
+                  "startColumn": 33,
+                  "endLineNumber": 75,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            return self.save_file_as()",
+                "range": {
+                  "startLineNumber": 76,
+                  "startColumn": 34,
+                  "endLineNumber": 76,
+                  "endColumn": 34
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        try:",
+                "range": {
+                  "startLineNumber": 77,
+                  "startColumn": 39,
+                  "endLineNumber": 77,
+                  "endColumn": 39
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            with open(self.current_file, \"w\", encoding=\"utf-8\") as f:",
+                "range": {
+                  "startLineNumber": 78,
+                  "startColumn": 13,
+                  "endLineNumber": 78,
+                  "endColumn": 13
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                f.write(self.editor.toPlainText())",
+                "range": {
+                  "startLineNumber": 79,
+                  "startColumn": 70,
+                  "endLineNumber": 79,
+                  "endColumn": 70
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            self.status.showMessage(f\"Saved: {self.current_file.name}\", 5000)",
+                "range": {
+                  "startLineNumber": 80,
+                  "startColumn": 51,
+                  "endLineNumber": 80,
+                  "endColumn": 51
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        except Exception as e:",
+                "range": {
+                  "startLineNumber": 81,
+                  "startColumn": 78,
+                  "endLineNumber": 81,
+                  "endColumn": 78
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            QMessageBox.critical(self, \"Error\", f\"Could not save file:\\n{e}\")",
+                "range": {
+                  "startLineNumber": 82,
+                  "startColumn": 31,
+                  "endLineNumber": 82,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 83,
+                  "startColumn": 78,
+                  "endLineNumber": 83,
+                  "endColumn": 78
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def save_file_as(self) -> None:",
+                "range": {
+                  "startLineNumber": 84,
+                  "startColumn": 1,
+                  "endLineNumber": 84,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        path, _ = QFileDialog.getSaveFileName(self, \"Save File As\", \"\", \"Text Files (*.txt);;All Files (*)\")",
+                "range": {
+                  "startLineNumber": 85,
+                  "startColumn": 36,
+                  "endLineNumber": 85,
+                  "endColumn": 36
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        if not path:",
+                "range": {
+                  "startLineNumber": 86,
+                  "startColumn": 109,
+                  "endLineNumber": 86,
+                  "endColumn": 109
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            return",
+                "range": {
+                  "startLineNumber": 87,
+                  "startColumn": 21,
+                  "endLineNumber": 87,
+                  "endColumn": 21
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.current_file = Path(path)",
+                "range": {
+                  "startLineNumber": 88,
+                  "startColumn": 19,
+                  "endLineNumber": 88,
+                  "endColumn": 19
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.save_file()",
+                "range": {
+                  "startLineNumber": 89,
+                  "startColumn": 39,
+                  "endLineNumber": 89,
+                  "endColumn": 39
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        self.setWindowTitle(f\"PestProfessor — {self.current_file.name}\")",
+                "range": {
+                  "startLineNumber": 90,
+                  "startColumn": 25,
+                  "endLineNumber": 90,
+                  "endColumn": 25
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 91,
+                  "startColumn": 73,
+                  "endLineNumber": 91,
+                  "endColumn": 73
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def about(self) -> None:",
+                "range": {
+                  "startLineNumber": 92,
+                  "startColumn": 1,
+                  "endLineNumber": 92,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        QMessageBox.information(self, \"About\", \"PestProfessor\\nStarting layout using PyQt6\")",
+                "range": {
+                  "startLineNumber": 93,
+                  "startColumn": 29,
+                  "endLineNumber": 93,
+                  "endColumn": 29
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 94,
+                  "startColumn": 93,
+                  "endLineNumber": 94,
+                  "endColumn": 93
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    def closeEvent(self, event) -> None:",
+                "range": {
+                  "startLineNumber": 95,
+                  "startColumn": 1,
+                  "endLineNumber": 95,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        if self.editor.document().isModified():",
+                "range": {
+                  "startLineNumber": 96,
+                  "startColumn": 41,
+                  "endLineNumber": 96,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            resp = QMessageBox.question(",
+                "range": {
+                  "startLineNumber": 97,
+                  "startColumn": 48,
+                  "endLineNumber": 97,
+                  "endColumn": 48
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                self, \"Unsaved Changes\",",
+                "range": {
+                  "startLineNumber": 98,
+                  "startColumn": 41,
+                  "endLineNumber": 98,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                \"You have unsaved changes. Do you want to save before exiting?\",",
+                "range": {
+                  "startLineNumber": 99,
+                  "startColumn": 41,
+                  "endLineNumber": 99,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                QMessageBox.StandardButton.Save | QMessageBox.StandardButton.Discard | QMessageBox.StandardButton.Cancel",
+                "range": {
+                  "startLineNumber": 100,
+                  "startColumn": 81,
+                  "endLineNumber": 100,
+                  "endColumn": 81
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            )",
+                "range": {
+                  "startLineNumber": 101,
+                  "startColumn": 121,
+                  "endLineNumber": 101,
+                  "endColumn": 121
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            if resp == QMessageBox.StandardButton.Save:",
+                "range": {
+                  "startLineNumber": 102,
+                  "startColumn": 14,
+                  "endLineNumber": 102,
+                  "endColumn": 14
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                self.save_file()",
+                "range": {
+                  "startLineNumber": 103,
+                  "startColumn": 56,
+                  "endLineNumber": 103,
+                  "endColumn": 56
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                event.accept()",
+                "range": {
+                  "startLineNumber": 104,
+                  "startColumn": 33,
+                  "endLineNumber": 104,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            elif resp == QMessageBox.StandardButton.Discard:",
+                "range": {
+                  "startLineNumber": 105,
+                  "startColumn": 31,
+                  "endLineNumber": 105,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                event.accept()",
+                "range": {
+                  "startLineNumber": 106,
+                  "startColumn": 61,
+                  "endLineNumber": 106,
+                  "endColumn": 61
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            else:",
+                "range": {
+                  "startLineNumber": 107,
+                  "startColumn": 31,
+                  "endLineNumber": 107,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n                event.ignore()",
+                "range": {
+                  "startLineNumber": 108,
+                  "startColumn": 18,
+                  "endLineNumber": 108,
+                  "endColumn": 18
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n        else:",
+                "range": {
+                  "startLineNumber": 109,
+                  "startColumn": 31,
+                  "endLineNumber": 109,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n            event.accept()",
+                "range": {
+                  "startLineNumber": 110,
+                  "startColumn": 14,
+                  "endLineNumber": 110,
+                  "endColumn": 14
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 111,
+                  "startColumn": 27,
+                  "endLineNumber": 111,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 112,
+                  "startColumn": 1,
+                  "endLineNumber": 112,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\ndef main(argv: list[str] | None = None) -> int:",
+                "range": {
+                  "startLineNumber": 113,
+                  "startColumn": 1,
+                  "endLineNumber": 113,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    app = QApplication(argv or sys.argv)",
+                "range": {
+                  "startLineNumber": 114,
+                  "startColumn": 48,
+                  "endLineNumber": 114,
+                  "endColumn": 48
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    app.setApplicationName(\"PestProfessor\")",
+                "range": {
+                  "startLineNumber": 115,
+                  "startColumn": 41,
+                  "endLineNumber": 115,
+                  "endColumn": 41
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    window = MainWindow()",
+                "range": {
+                  "startLineNumber": 116,
+                  "startColumn": 44,
+                  "endLineNumber": 116,
+                  "endColumn": 44
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    window.show()",
+                "range": {
+                  "startLineNumber": 117,
+                  "startColumn": 26,
+                  "endLineNumber": 117,
+                  "endColumn": 26
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    return app.exec()",
+                "range": {
+                  "startLineNumber": 118,
+                  "startColumn": 18,
+                  "endLineNumber": 118,
+                  "endColumn": 18
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 119,
+                  "startColumn": 22,
+                  "endLineNumber": 119,
+                  "endColumn": 22
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 120,
+                  "startColumn": 1,
+                  "endLineNumber": 120,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nif __name__ == \"__main__\":",
+                "range": {
+                  "startLineNumber": 121,
+                  "startColumn": 1,
+                  "endLineNumber": 121,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    raise SystemExit(main())",
+                "range": {
+                  "startLineNumber": 122,
+                  "startColumn": 27,
+                  "endLineNumber": 122,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "from PyQt6.QtCore import Qt\nimport sys\nfrom pathlib import Path\n\n",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 1,
+                  "endColumn": 1
+                }
+              }
+            ]
+          ]
+        }
+      ],
+      "responseId": "response_8836b05e-6ebe-4c99-bee2-c85812416d42",
+      "result": {
+        "timings": {
+          "totalElapsed": 21297
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "```\n#!/usr/bin/env python3\n\"\"\"\nSimple starting layout for a PyQt6 application.\nSave as /home/josie/Documents/programming/python/pestprofessor/main.py\n\"\"\"\n\nfrom PyQt6.QtWidgets import (\n    QApplication, QMainWindow, QPlainTextEdit, QFileDialog,\n    QMessageBox, QToolBar, QStatusBar, QAction, QWidget, QVBoxLayout\n)\nfrom PyQt6.QtCore import Qt\nimport sys\nfrom pathlib import Path\n\n\nclass MainWindow(QMainWindow):\n    def __init__(self):\n        super().__init__()\n        self.current_file: Path | None = None\n        self.setWindowTitle(\"PestProfessor\")\n        self.resize(900, 600)\n        self._create_actions()\n        self._create_menus_and_toolbar()\n        self._create_central_widget()\n        self._create_status_bar()\n\n    def _create_actions(self) -> None:\n        self.open_act = QAction(\"Open...\", self, shortcut=\"Ctrl+O\", triggered=self.open_file)\n        self.save_act = QAction(\"Save\", self, shortcut=\"Ctrl+S\", triggered=self.save_file)\n        self.save_as_act = QAction(\"Save As...\", self, shortcut=\"Ctrl+Shift+S\", triggered=self.save_file_as)\n        self.exit_act = QAction(\"Exit\", self, shortcut=\"Ctrl+Q\", triggered=self.close)\n        self.about_act = QAction(\"About\", self, triggered=self.about)\n\n    def _create_menus_and_toolbar(self) -> None:\n        file_menu = self.menuBar().addMenu(\"&File\")\n        file_menu.addAction(self.open_act)\n        file_menu.addAction(self.save_act)\n        file_menu.addAction(self.save_as_act)\n        file_menu.addSeparator()\n        file_menu.addAction(self.exit_act)\n\n        help_menu = self.menuBar().addMenu(\"&Help\")\n        help_menu.addAction(self.about_act)\n\n        toolbar = QToolBar(\"Main\")\n        toolbar.setMovable(False)\n        toolbar.addAction(self.open_act)\n        toolbar.addAction(self.save_act)\n        self.addToolBar(toolbar)\n\n    def _create_central_widget(self) -> None:\n        container = QWidget()\n        layout = QVBoxLayout()\n        self.editor = QPlainTextEdit()\n        self.editor.setPlaceholderText(\"Start typing...\")\n        layout.addWidget(self.editor)\n        container.setLayout(layout)\n        self.setCentralWidget(container)\n\n    def _create_status_bar(self) -> None:\n        self.status = QStatusBar()\n        self.setStatusBar(self.status)\n        self.status.showMessage(\"Ready\")\n\n    def open_file(self) -> None:\n        path, _ = QFileDialog.getOpenFileName(self, \"Open File\", \"\", \"Text Files (*.txt);;All Files (*)\")\n        if not path:\n            return\n        try:\n            with open(path, \"r\", encoding=\"utf-8\") as f:\n                self.editor.setPlainText(f.read())\n            self.current_file = Path(path)\n            self.status.showMessage(f\"Opened: {self.current_file.name}\", 5000)\n            self.setWindowTitle(f\"PestProfessor — {self.current_file.name}\")\n        except Exception as e:\n            QMessageBox.critical(self, \"Error\", f\"Could not open file:\\n{e}\")\n\n    def save_file(self) -> None:\n        if not self.current_file:\n            return self.save_file_as()\n        try:\n            with open(self.current_file, \"w\", encoding=\"utf-8\") as f:\n                f.write(self.editor.toPlainText())\n            self.status.showMessage(f\"Saved: {self.current_file.name}\", 5000)\n        except Exception as e:\n            QMessageBox.critical(self, \"Error\", f\"Could not save file:\\n{e}\")\n\n    def save_file_as(self) -> None:\n        path, _ = QFileDialog.getSaveFileName(self, \"Save File As\", \"\", \"Text Files (*.txt);;All Files (*)\")\n        if not path:\n            return\n        self.current_file = Path(path)\n        self.save_file()\n        self.setWindowTitle(f\"PestProfessor — {self.current_file.name}\")\n\n    def about(self) -> None:\n        QMessageBox.information(self, \"About\", \"PestProfessor\\nStarting layout using PyQt6\")\n\n    def closeEvent(self, event) -> None:\n        if self.editor.document().isModified():\n            resp = QMessageBox.question(\n                self, \"Unsaved Changes\",\n                \"You have unsaved changes. Do you want to save before exiting?\",\n                QMessageBox.StandardButton.Save | QMessageBox.StandardButton.Discard | QMessageBox.StandardButton.Cancel\n            )\n            if resp == QMessageBox.StandardButton.Save:\n                self.save_file()\n                event.accept()\n            elif resp == QMessageBox.StandardButton.Discard:\n                event.accept()\n            else:\n                event.ignore()\n        else:\n            event.accept()\n\n\ndef main(argv: list[str] | None = None) -> int:\n    app = QApplication(argv or sys.argv)\n    app.setApplicationName(\"PestProfessor\")\n    window = MainWindow()\n    window.show()\n    return app.exec()\n\n\nif __name__ == \"__main__\":\n    raise SystemExit(main())\n```",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "e3f3f14e-0d2a-40ff-8b25-295aedb4306e",
+              "statefulMarker": "dSwAIHCC5+w/TqgZ/K6u/fw7dblY6HhTVzp8SCaQTc53f1pfI/KJPcLf9WVPaZfTk2bS8CP0uFBxeSGDr00jxY2nh5eCUpKe3yCf0R6kMygsGRn8eBKpxTKe7wNwAHM0QbLsWVDsigC1ZqIqEh6CHwO2p1RMG2gIXrlSGgofa6AAn7iV7H6vxZS3yhCq9hkbQgBCefMFbS65kW/EhK6IDxy/MxCG5+38agehcS5idVZ56qG4e7eWEEbhZOlS7D7PtcHV2hAlFVUqk/6CY8+dPZAV5PAWksAEnInisIoNMEEl9ZGwxDkJ0TP6ngkqQpbuxwT2DsqMIZuJ5j8RnSwkmCDNhTq9Cy1mtcRj31HFQayF1J+XrrkZIzL+ghPsw/1J8r9M/+31EouZlL9vkjhQ1VEPYfnT",
+              "thinking": {
+                "id": "i3xRNZfrlYNKimOv5spNTJ61CkoLmva4sivMGCt1VG56aisJz/MGHoTQzRteH5VkQN7mnQdjDLEILJdqW9oB7LUEbhg7dSfAWg8TDNaF9PLKRG+yDRnuuZkBCTe5fhT6MmK8zCkf9vqnPfPwfmp6sSulgChpS4Sd5h8k+1cPTbmVcqLhnwkhogWYQpljHlmLGxfaJ/nBQF1dKv1+AEsWDXViRqVT+mn5uJc8jaOP+lH1FgFCUN7MbQMB54ivREdFKlD1UKWlYHEBR++6IPAwLSe3OnBZyRc7Dxux0R86r4KGZWqOkK5PDzt0aNmk5tnkQeD0Pc6EvrdgVsSB7vc7TVUoZjqWQTuJa8WkbCi63zTYtV8YikAVMJWc2KoUqQs+aLsMoubBjs3TQmsdOSTm7xAIAQ==",
+                "text": [],
+                "encrypted": "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",
+                "tokens": 384
+              }
+            }
+          ],
+          "modelMessageId": "691bc234-b3ad-4755-80a5-b9e06bad94d6",
+          "responseId": "c85fe036-4560-4eef-9f43-f839c5e497fa",
+          "sessionId": "7617b03e-52c0-405c-9f33-f994919b91f6",
+          "agentId": "github.copilot.editor"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.4",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1762205749526
+    }
+  ],
+  "sessionId": "2bd5e2d9-d618-4305-966c-1662f4f374e1",
+  "creationDate": 1762205725210,
+  "isImported": false,
+  "lastMessageDate": 1762205749526
+}

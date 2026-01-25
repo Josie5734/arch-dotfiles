@@ -1,0 +1,8 @@
+using qt6 for a gui
+
+considering dropping the gui due to time constraints but may have to go through all previous coursework to update that and make the emphasis on gui less so
+
+alternative is a cli app
+
+looking at a library called Click for creating cli apps easily
+

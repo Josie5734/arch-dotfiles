@@ -1,0 +1,17 @@
+2026-01-06 12:27:35.954 [info] Native locator: Refresh started
+2026-01-06 12:27:36.202 [info] Native locator: Refresh finished in 888 ms
+2026-01-06 12:27:36.425 [info] Native locator: Refresh started
+2026-01-06 12:27:36.473 [info] > pyenv which python
+2026-01-06 12:27:36.473 [info] cwd: .
+2026-01-06 12:27:36.848 [info] Python interpreter path: ./.venv/bin/python
+2026-01-06 12:27:36.954 [info] Native locator: Refresh finished in 531 ms
+2026-01-06 12:27:39.504 [info] Starting Pylance language server.
+2026-01-06 12:28:54.734 [info] Native locator: Refresh started
+2026-01-06 12:28:55.121 [info] Native locator: Refresh started
+2026-01-06 12:28:55.516 [info] > pyenv which python
+2026-01-06 12:28:55.516 [info] cwd: .
+2026-01-06 12:28:55.646 [info] Native locator: Refresh finished in 1645 ms
+2026-01-06 12:28:55.652 [info] Python interpreter path: ./.venv/bin/python
+2026-01-06 12:28:58.766 [info] Starting Pylance language server.
+2026-01-06 12:53:17.644 [info] CreateEnv Trigger - Skipping for /home/josie/Documents/programming/python/ppcli/main.py
+2026-01-06 12:53:17.750 [info] Send text to terminal: source /home/josie/Documents/programming/python/ppcli/.venv/bin/activate

@@ -1,0 +1,7 @@
+[Desktop Entry]
+
+Name=FireFox Private Tab
+
+Exec=/usr/lib/firefox/firefox --private-window %u
+
+Icon=firefox

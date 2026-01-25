@@ -1,0 +1,15 @@
+2026-01-12 12:12:54.317 [info] Native locator: Refresh started
+2026-01-12 12:12:54.370 [info] Native locator: Refresh finished in 817 ms
+2026-01-12 12:12:54.887 [info] Native locator: Refresh started
+2026-01-12 12:12:55.001 [info] > pyenv which python
+2026-01-12 12:12:55.001 [info] cwd: .
+2026-01-12 12:12:55.475 [info] Python interpreter path: ./.venv/bin/python
+2026-01-12 12:12:55.603 [info] Native locator: Refresh finished in 718 ms
+2026-01-12 12:12:58.404 [info] Starting Pylance language server.
+2026-01-12 12:13:05.725 [info] Native locator: Refresh started
+2026-01-12 12:13:06.408 [info] Native locator: Refresh started
+2026-01-12 12:13:06.843 [info] > pyenv which python
+2026-01-12 12:13:06.843 [info] cwd: .
+2026-01-12 12:13:06.942 [info] Python interpreter path: ./.venv/bin/python
+2026-01-12 12:13:07.044 [info] Native locator: Refresh finished in 1930 ms
+2026-01-12 12:13:10.140 [info] Starting Pylance language server.

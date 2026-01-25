@@ -1,0 +1,76 @@
+2026-01-08 09:05:28.955 [info] Client: Pylance client (2025.10.4) started with python extension (2025.20.1)
+2026-01-08 09:05:29.936 [info] (2408): Server root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-08 09:05:29.940 [info] (2408): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2026-01-08 09:05:29.951 [info] (2408): Starting service instance "ppcli" for workspace "/home/josie/Documents/programming/python/ppcli"
+2026-01-08 09:05:31.303 [info] (2408): Loading background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/josie/Documents/programming/python/ppcli...
+2026-01-08 09:05:31.448 [info] (2408): FG(ppcli): Setting environmentName for service "ppcli": "3.13.7 (.venv venv)"
+2026-01-08 09:05:31.449 [info] (2408): FG(ppcli): Setting pythonPath for service "ppcli": "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+2026-01-08 09:05:31.449 [info] (2408): FG(ppcli): No include entries specified; assuming /home/josie/Documents/programming/python/ppcli
+2026-01-08 09:05:31.451 [info] (2408): FG(ppcli): Auto-excluding **/node_modules
+2026-01-08 09:05:31.452 [info] (2408): FG(ppcli): Auto-excluding **/__pycache__
+2026-01-08 09:05:31.452 [info] (2408): FG(ppcli): Auto-excluding **/.*
+2026-01-08 09:05:31.502 [info] (2408): FG(ppcli): Assuming Python version 3.13.11.final.0
+2026-01-08 09:05:31.652 [info] (2408): FG(ppcli): Found 7 source files
+2026-01-08 09:05:31.664 [info] (2408): Settings have not changed. Skipping update.
+2026-01-08 09:05:32.611 [info] (2408): Starting Mcp server id:5264 ...
+2026-01-08 09:05:33.113 [info] (2408): PQ(ppcli): Priority queue background worker(2) root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-08 09:05:33.124 [info] (2408): PQ(ppcli): Priority queue background worker(2) started
+2026-01-08 09:05:33.396 [info] (2408): IDX(ppcli): Indexer background runner(3) root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2026-01-08 09:05:33.396 [info] (2408): IDX(ppcli): Indexing(3) started
+2026-01-08 09:05:33.921 [info] (2408): BG(ppcli): Loaded external background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2026-01-08 09:05:34.526 [info] (2408): IDX(ppcli): scanned(3) 10 files over 1 exec env
+2026-01-08 09:05:34.738 [info] (2408): IDX(ppcli): indexed(3) 10 files over 1 exec env
+2026-01-08 09:05:34.742 [info] (2408): IDX(ppcli): Indexing finished(3).
+2026-01-08 09:07:59.558 [info] (2408): Starting service instance "<default>" for workspace ""
+2026-01-08 09:07:59.560 [info] (2408): Loading background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2026-01-08 09:07:59.747 [info] (2408): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2026-01-08 09:07:59.747 [info] (2408): FG(<default>): Setting pythonPath for service "<default>": "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+2026-01-08 09:07:59.747 [info] (2408): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-01-08 09:07:59.747 [info] (2408): FG(<default>): Auto-excluding **/node_modules
+2026-01-08 09:07:59.747 [info] (2408): FG(<default>): Auto-excluding **/__pycache__
+2026-01-08 09:07:59.749 [info] (2408): FG(<default>): Auto-excluding **/.*
+2026-01-08 09:07:59.845 [info] (2408): FG(<default>): Assuming Python version 3.13.11.final.0
+2026-01-08 09:07:59.969 [error] (2408): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-01-08 09:07:59.970 [info] (2408): FG(<default>): No source files found.
+2026-01-08 09:08:00.911 [info] (2408): PQ(<default>): Priority queue background worker(5) root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-08 09:08:00.911 [info] (2408): PQ(<default>): Priority queue background worker(5) started
+2026-01-08 09:08:01.242 [info] (2408): BG(<default>): Loaded external background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2026-01-08 09:21:24.349 [info] (2408): Settings have not changed. Skipping update.
+2026-01-08 09:21:24.350 [info] (2408): Settings have not changed. Skipping update.
+2026-01-08 10:48:07.151 [info] Client: Pylance client (2025.10.4) started with python extension (2025.20.1)
+2026-01-08 10:48:08.044 [info] (17008): Server root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-08 10:48:08.046 [info] (17008): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2026-01-08 10:48:08.053 [info] (17008): Starting service instance "metronome" for workspace "/home/josie/Documents/programming/python/metronome"
+2026-01-08 10:48:09.517 [info] (17008): Loading background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/josie/Documents/programming/python/metronome...
+2026-01-08 10:48:09.758 [info] (17008): FG(metronome): Setting environmentName for service "metronome": "3.13.11 (.venv venv)"
+2026-01-08 10:48:09.760 [info] (17008): FG(metronome): Setting pythonPath for service "metronome": "/home/josie/Documents/programming/python/metronome/.venv/bin/python"
+2026-01-08 10:48:09.761 [info] (17008): FG(metronome): No include entries specified; assuming /home/josie/Documents/programming/python/metronome
+2026-01-08 10:48:09.763 [info] (17008): FG(metronome): Auto-excluding **/node_modules
+2026-01-08 10:48:09.764 [info] (17008): FG(metronome): Auto-excluding **/__pycache__
+2026-01-08 10:48:09.765 [info] (17008): FG(metronome): Auto-excluding **/.*
+2026-01-08 10:48:09.827 [info] (17008): FG(metronome): Assuming Python version 3.13.11.final.0
+2026-01-08 10:48:10.043 [info] (17008): FG(metronome): Found 1 source file
+2026-01-08 10:48:10.117 [info] (17008): Settings have not changed. Skipping update.
+2026-01-08 10:48:12.050 [info] (17008): Starting Mcp server id:5030 ...
+2026-01-08 10:48:12.154 [info] (17008): PQ(metronome): Priority queue background worker(2) root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-08 10:48:12.159 [info] (17008): PQ(metronome): Priority queue background worker(2) started
+2026-01-08 10:48:12.619 [info] (17008): IDX(metronome): Indexer background runner(3) root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2026-01-08 10:48:12.620 [info] (17008): IDX(metronome): Indexing(3) started
+2026-01-08 10:48:12.839 [info] (17008): BG(metronome): Loaded external background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2026-01-08 10:48:13.335 [info] (17008): IDX(metronome): scanned(3) 9 files over 1 exec env
+2026-01-08 10:48:13.569 [info] (17008): IDX(metronome): indexed(3) 9 files over 1 exec env
+2026-01-08 10:48:13.572 [info] (17008): IDX(metronome): Indexing finished(3).
+2026-01-08 10:48:15.871 [info] (17008): Starting service instance "<default>" for workspace ""
+2026-01-08 10:48:15.877 [info] (17008): Loading background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into ...
+2026-01-08 10:48:16.010 [info] (17008): FG(<default>): Setting environmentName for service "<default>": "3.13.11 (.venv venv)"
+2026-01-08 10:48:16.016 [info] (17008): FG(<default>): Setting pythonPath for service "<default>": "/home/josie/Documents/programming/python/metronome/.venv/bin/python"
+2026-01-08 10:48:16.016 [info] (17008): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-01-08 10:48:16.024 [info] (17008): FG(<default>): Auto-excluding **/node_modules
+2026-01-08 10:48:16.024 [info] (17008): FG(<default>): Auto-excluding **/__pycache__
+2026-01-08 10:48:16.025 [info] (17008): FG(<default>): Auto-excluding **/.*
+2026-01-08 10:48:16.175 [info] (17008): FG(<default>): Assuming Python version 3.13.11.final.0
+2026-01-08 10:48:16.332 [error] (17008): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-01-08 10:48:16.334 [info] (17008): FG(<default>): No source files found.
+2026-01-08 10:48:17.128 [info] (17008): PQ(<default>): Priority queue background worker(5) root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2026-01-08 10:48:17.131 [info] (17008): PQ(<default>): Priority queue background worker(5) started
+2026-01-08 10:48:17.572 [info] (17008): BG(<default>): Loaded external background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 

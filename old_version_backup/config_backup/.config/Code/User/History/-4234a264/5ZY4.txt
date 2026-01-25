@@ -1,0 +1,17 @@
+the plan for this game:
+
+is just going to be a little demo sort of thing about gear shifting
+
+the top half of the screen is just a car driving on the road
+car has little animations:
+    wheels have different frames to rotate
+    will probably make it move up and down a pixel or something
+
+the bottom of the screen is like the dash where you have a gearstick box
+    and other stuff like a speedometer
+
+main gameplay is just getting the clutch and shifts and stuff
+
+show movement by having the lines on the road that move
+and maybe eventually little things in the background that go by
+

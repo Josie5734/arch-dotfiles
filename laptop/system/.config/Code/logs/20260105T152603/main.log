@@ -1,0 +1,19 @@
+2026-01-05 15:26:03.846 [info] update#setState idle
+2026-01-05 15:26:08.079 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/618725e67565b290ba4da6fe2d29f8fa1d4e3622 - error undefined net::ERR_INTERNET_DISCONNECTED
+2026-01-05 15:26:08.080 [error] update#isLatestVersion(): failed to check for updates
+2026-01-05 15:26:08.081 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124722)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-01-05 15:26:33.850 [info] update#setState checking for updates
+2026-01-05 15:26:33.869 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/618725e67565b290ba4da6fe2d29f8fa1d4e3622?bg=true - error undefined net::ERR_INTERNET_DISCONNECTED
+2026-01-05 15:26:33.870 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:124722)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-01-05 15:26:33.870 [info] update#setState idle
+2026-01-05 15:28:42.651 [info] Extension host with pid 892 exited with code: 0, signal: unknown.
+2026-01-05 15:28:42.741 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 902]: crashed with code 15 and reason 'killed'
+2026-01-05 15:57:36.725 [info] Extension host with pid 1502 exited with code: 0, signal: unknown.
+2026-01-05 15:57:36.860 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1504]: crashed with code 15 and reason 'killed'
+2026-01-05 16:07:00.747 [info] Extension host with pid 5323 exited with code: 0, signal: unknown.
+2026-01-05 16:09:00.688 [info] Extension host with pid 7372 exited with code: 0, signal: unknown.
+2026-01-05 16:20:00.123 [info] Extension host with pid 8242 exited with code: 0, signal: unknown.

@@ -1,0 +1,1293 @@
+2026-01-08 09:05:26.849 [info] Starting Python Locator /home/josie/.vscode/extensions/ms-python.python-2025.20.1-linux-x64/python-env-tools/bin/pet server
+2026-01-08 09:05:26.858 [info] Discovered env: /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:05:26.863 [info] Discovered env: /bin/python
+2026-01-08 09:05:26.869 [info] Discovered env: /usr/bin/python
+2026-01-08 09:05:26.874 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:26.875 [info] Discovered env: /sbin/python
+2026-01-08 09:05:26.875 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:26.875 [info] Discovered env: /usr/sbin/python
+2026-01-08 09:05:26.876 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:26.880 [info] Discovered env: /sbin/python3
+2026-01-08 09:05:26.881 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:26.881 [info] Discovered env: /usr/sbin/python3
+2026-01-08 09:05:26.882 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:26.911 [info] Discovered env: /usr/sbin/python3.13
+2026-01-08 09:05:26.912 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:26.914 [info] Discovered env: /sbin/python3.13
+2026-01-08 09:05:26.914 [info] Locator Conda took 245.095966ms
+2026-01-08 09:05:26.914 [info] Locator Homebrew took 70.951µs
+2026-01-08 09:05:26.915 [info] Locator LinuxGlobal took 223.979173ms
+2026-01-08 09:05:26.915 [info] Locator PipEnv took 27.552µs
+2026-01-08 09:05:26.915 [info] Locator Pixi took 410.251µs
+2026-01-08 09:05:26.915 [info] Locator Poetry took 2.835864ms
+2026-01-08 09:05:26.915 [info] Locator PyEnv took 2.164404ms
+2026-01-08 09:05:26.915 [info] Locator Uv took 868.372µs
+2026-01-08 09:05:26.915 [info] Locator Venv took 34.257µs
+2026-01-08 09:05:26.915 [info] Locator VirtualEnv took 29.311µs
+2026-01-08 09:05:26.915 [info] Locator VirtualEnvWrapper took 881.767µs
+2026-01-08 09:05:26.915 [info] Locator GlobalVirtualEnvs took 141.435µs
+2026-01-08 09:05:26.915 [info] Locator Locators took 248.368253ms
+2026-01-08 09:05:26.915 [info] Locator Path took 410.814998ms
+2026-01-08 09:05:26.915 [info] Locator Workspaces took 108.239855ms
+2026-01-08 09:05:26.916 [info] Refresh completed in 412ms
+2026-01-08 09:05:28.213 [info] Discovered env: /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:05:28.272 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:05:28.272 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:05:28.364 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:28.364 [info] Discovered env: /usr/sbin/python
+2026-01-08 09:05:28.365 [info] Discovered env: /usr/bin/python
+2026-01-08 09:05:28.366 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:28.366 [info] Discovered env: /sbin/python
+2026-01-08 09:05:28.366 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:28.366 [info] Discovered env: /usr/sbin/python3
+2026-01-08 09:05:28.367 [info] Discovered env: /bin/python
+2026-01-08 09:05:28.368 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:28.368 [info] Discovered env: /sbin/python3
+2026-01-08 09:05:28.369 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:28.369 [info] Discovered env: /usr/sbin/python3.13
+2026-01-08 09:05:28.370 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2026-01-08 09:05:28.370 [info] Discovered env: /sbin/python3.13
+2026-01-08 09:05:28.370 [info] Locator Conda took 379.021356ms
+2026-01-08 09:05:28.370 [info] Locator Homebrew took 80.621µs
+2026-01-08 09:05:28.370 [info] Locator LinuxGlobal took 308.063847ms
+2026-01-08 09:05:28.370 [info] Locator PipEnv took 22.837µs
+2026-01-08 09:05:28.370 [info] Locator Pixi took 30.82µs
+2026-01-08 09:05:28.370 [info] Locator Poetry took 171.628µs
+2026-01-08 09:05:28.370 [info] Locator PyEnv took 121.811µs
+2026-01-08 09:05:28.370 [info] Locator Uv took 42.25µs
+2026-01-08 09:05:28.370 [info] Locator Venv took 20.227µs
+2026-01-08 09:05:28.370 [info] Locator VirtualEnv took 47.843µs
+2026-01-08 09:05:28.370 [info] Locator VirtualEnvWrapper took 26.029µs
+2026-01-08 09:05:28.370 [info] Locator GlobalVirtualEnvs took 39.12µs
+2026-01-08 09:05:28.370 [info] Locator Locators took 436.831457ms
+2026-01-08 09:05:28.370 [info] Locator Path took 505.563255ms
+2026-01-08 09:05:28.370 [info] Locator Workspaces took 20.506648ms
+2026-01-08 09:05:28.371 [info] Refresh completed in 505ms
+2026-01-08 09:06:52.611 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:06:52.611 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:07:49.058 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:07:49.060 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:08:50.804 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:08:50.805 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:11:27.881 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:11:27.881 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:14:59.808 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:14:59.808 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:16:01.371 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:16:01.371 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:16:36.825 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:16:36.825 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:17:25.531 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:17:25.531 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:18:00.120 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:18:00.121 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:18:59.356 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:18:59.356 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:20:23.557 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:20:23.558 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:21:24.311 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:21:24.311 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:50:15.294 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:50:15.295 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:51:42.144 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:51:42.145 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:52:32.209 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:52:32.209 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:53:30.091 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:53:30.093 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:54:35.526 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:54:35.526 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:55:07.831 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:55:07.831 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:55:47.778 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:55:47.778 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:56:21.511 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:56:21.511 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:57:03.835 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:57:03.835 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:58:47.582 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:58:47.582 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 09:59:54.845 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 09:59:54.846 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:00:33.917 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:00:33.917 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:01:22.670 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:01:22.670 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:01:59.425 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:01:59.425 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:02:35.676 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:02:35.676 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:03:10.612 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:03:10.612 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:03:47.494 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:03:47.494 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:05:24.981 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:05:24.981 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:06:13.234 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:06:13.235 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:07:58.240 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:07:58.240 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:09:00.550 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:09:00.550 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:13:07.468 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:13:07.468 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:16:45.367 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:16:45.368 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:17:30.456 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:17:30.458 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:20:55.557 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:20:55.557 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:22:36.284 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:22:36.284 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:27:11.334 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:27:11.335 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:27:56.728 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:27:56.729 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:28:44.577 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:28:44.578 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:30:56.998 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:30:56.998 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:34:59.835 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:34:59.835 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:35:50.154 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:35:50.154 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:37:06.270 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:37:06.270 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:37:50.146 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:37:50.146 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:38:23.099 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:38:23.099 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:38:58.307 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.11
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+.
+Resolved as => 
+Environment (Venv)
+   Executable  : /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/josie/Documents/programming/python/ppcli/.venv
+   Architecture: x64
+   Symlinks    : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3"
+               : "/home/josie/Documents/programming/python/ppcli/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2026-01-08 10:38:58.308 [info] Resolved Python Environment /home/josie/Documents/programming/python/ppcli/.venv/bin/python
+2026-01-08 10:48:05.772 [info] Starting Python Locator /home/josie/.vscode/extensions/ms-python.python-2025.20.1-linux-x64/python-env-tools/bin/pet server
+2026-01-08 10:48:06.070 [info] Discovered env: /usr/bin/python
+2026-01-08 10:48:06.074 [info] Discovered env: /bin/python
+2026-01-08 10:48:06.074 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2026-01-08 10:48:06.074 [info] Discovered env: /usr/sbin/python
+2026-01-08 10:48:06.076 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2026-01-08 10:48:06.076 [info] Discovered env: /sbin/python
+2026-01-08 10:48:06.076 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2026-01-08 10:48:06.077 [info] Discovered env: /usr/sbin/python3
+2026-01-08 10:48:06.078 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2026-01-08 10:48:06.079 [info] Discovered env: /sbin/python3
+2026-01-08 10:48:06.079 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2026-01-08 10:48:06.080 [info] Discovered env: /usr/sbin/python3.13
+2026-01-08 10:48:06.080 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2026-01-08 10:48:06.080 [info] Discovered env: /sbin/python3.13
+2026-01-08 10:48:06.081 [info] Locator Conda took 181.644309ms
+2026-01-08 10:48:06.081 [info] Locator Homebrew took 365.579µs
+2026-01-08 10:48:06.082 [info] Locator LinuxGlobal took 223.842707ms
+2026-01-08 10:48:06.082 [info] Locator PipEnv took 17.67µs
+2026-01-08 10:48:06.083 [info] Locator Pixi took 27.042µs
+2026-01-08 10:48:06.083 [info] Locator Poetry took 114.082µs
+2026-01-08 10:48:06.083 [info] Locator PyEnv took 4.109099ms
+2026-01-08 10:48:06.083 [info] Locator Uv took 206.91µs
+2026-01-08 10:48:06.083 [info] Locator Venv took 23.781µs
+2026-01-08 10:48:06.083 [info] Locator VirtualEnv took 17.539µs
+2026-01-08 10:48:06.083 [info] Locator VirtualEnvWrapper took 14.704µs
+2026-01-08 10:48:06.083 [info] Locator GlobalVirtualEnvs took 335.293µs
+2026-01-08 10:48:06.083 [info] Locator Locators took 226.922592ms
+2026-01-08 10:48:06.083 [info] Locator Path took 353.001907ms
+2026-01-08 10:48:06.083 [info] Locator Workspaces took 863ns
+2026-01-08 10:48:06.083 [info] Refresh completed in 353ms
+2026-01-08 10:48:06.086 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 10:49:23.424 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 10:50:27.773 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 10:57:00.928 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 10:59:25.997 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:00:57.783 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:03:16.133 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:03:53.181 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:04:37.278 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:06:49.145 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:08:04.773 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:08:37.037 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:13:00.841 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:17:55.489 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:19:24.945 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:20:30.022 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:21:14.588 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:26:59.918 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:27:32.322 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:28:05.570 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:32:28.952 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:33:02.896 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python
+2026-01-08 11:37:15.704 [info] Resolved Python Environment /home/josie/Documents/programming/python/metronome/.venv/bin/python

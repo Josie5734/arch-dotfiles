@@ -1,0 +1,8 @@
+with open("log.txt", "w") as file:
+    file.write("this is the log")
+    file.write("the log stuff goes here")
+
+with open("log.txt","r") as file:
+    print(file.read())
+
+    

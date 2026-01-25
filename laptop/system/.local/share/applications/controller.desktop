@@ -1,0 +1,9 @@
+[Desktop Entry]
+
+Name=ds4drv
+
+Exec=python /home/josie/scripts/ds4drv.py
+
+Icon=controller
+
+Type=Application

@@ -1,0 +1,23 @@
+2025-12-21 12:39:22.426 [info] Client: Pylance client (2025.10.4) started with python extension (2025.20.1)
+2025-12-21 12:39:23.458 [info] (3128): Server root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-21 12:39:23.458 [info] (3128): Pylance language server 2025.10.4 (pyright version 1.1.407, commit 906e40aa) starting
+2025-12-21 12:39:23.458 [info] (3128): Starting service instance "ppcli" for workspace "/home/josie/Documents/programming/python/ppcli"
+2025-12-21 12:39:24.665 [info] (3128): Loading background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js into file:///home/josie/Documents/programming/python/ppcli...
+2025-12-21 12:39:24.807 [info] (3128): FG(ppcli): Setting environmentName for service "ppcli": "3.13.7 (.venv venv)"
+2025-12-21 12:39:24.807 [info] (3128): FG(ppcli): Setting pythonPath for service "ppcli": "/home/josie/Documents/programming/python/ppcli/.venv/bin/python"
+2025-12-21 12:39:24.808 [info] (3128): FG(ppcli): No include entries specified; assuming /home/josie/Documents/programming/python/ppcli
+2025-12-21 12:39:24.809 [info] (3128): FG(ppcli): Auto-excluding **/node_modules
+2025-12-21 12:39:24.810 [info] (3128): FG(ppcli): Auto-excluding **/__pycache__
+2025-12-21 12:39:24.810 [info] (3128): FG(ppcli): Auto-excluding **/.*
+2025-12-21 12:39:24.867 [info] (3128): FG(ppcli): Assuming Python version 3.13.11.final.0
+2025-12-21 12:39:25.053 [info] (3128): FG(ppcli): Found 8 source files
+2025-12-21 12:39:25.067 [info] (3128): Settings have not changed. Skipping update.
+2025-12-21 12:39:25.742 [info] (3128): Starting Mcp server id:5804 ...
+2025-12-21 12:39:26.253 [info] (3128): PQ(ppcli): Priority queue background worker(2) root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist
+2025-12-21 12:39:26.259 [info] (3128): PQ(ppcli): Priority queue background worker(2) started
+2025-12-21 12:39:26.620 [info] (3128): IDX(ppcli): Indexer background runner(3) root directory: file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist (index)
+2025-12-21 12:39:26.622 [info] (3128): IDX(ppcli): Indexing(3) started
+2025-12-21 12:39:26.826 [info] (3128): BG(ppcli): Loaded external background bundle file:///home/josie/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/copilot-background.bundle.js. 
+2025-12-21 12:39:27.331 [info] (3128): IDX(ppcli): scanned(3) 10 files over 1 exec env
+2025-12-21 12:39:27.551 [info] (3128): IDX(ppcli): indexed(3) 10 files over 1 exec env
+2025-12-21 12:39:27.558 [info] (3128): IDX(ppcli): Indexing finished(3).

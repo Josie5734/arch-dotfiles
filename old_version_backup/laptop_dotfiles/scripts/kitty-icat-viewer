@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+# kitty-icat-viewer - robust multi-image viewer with navigation
+# Uses existing kitty instance if available, falls back to new kitty.
+# Requires kitty configured with `allow_remote_control yes` and `listen_on unix:/tmp/mykitty`
+
+SOCKET="/tmp/mykitty"
+
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <image-file> [more images...]"
+    exit 1
+fi
+
+# collect only valid files
+IMAGES=()
+for f in "$@"; do
+    [ -f "$f" ] && IMAGES+=("$f")
+done
+
+if [ ${#IMAGES[@]} -eq 0 ]; then
+    echo "No valid image files provided."
+    exit 1
+fi
+
+# create a temp helper script which will run inside the terminal
+TMP=$(mktemp /tmp/kitty-icat.XXXXXX.sh)
+cat > "$TMP" <<'EOF'
+#!/usr/bin/env bash
+IMAGES=("$@")
+i=0
+show() {
+  # clear kitty inline image area
+  kitty +kitten icat --clear
+  kitty +kitten icat "${IMAGES[$i]}"
+  echo
+  echo "[${i+1}/${#IMAGES[@]}] ${IMAGES[$i]}"
+  echo "(←/p = prev, →/n = next, q = quit)"
+}
+show
+# read one key at a time
+while IFS= read -rsn1 key; do
+  case "$key" in
+    q) rm -f "$0"; exit 0 ;;
+    n|$'\e[C') (( i = (i + 1) % ${#IMAGES[@]} )) ;;
+    p|$'\e[D') (( i = (i - 1 + ${#IMAGES[@]}) % ${#IMAGES[@]} )) ;;
+    *) continue ;;
+  esac
+  show
+done
+EOF
+
+chmod +x "$TMP"
+
+# build safely escaped argument list for bash -lc invocation
+ARGS=""
+for f in "${IMAGES[@]}"; do
+  ARGS="$ARGS '$(printf "%s" "$f" | sed "s/'/'\\\\''/g")'"
+done
+
+# run in existing kitty if socket exists, otherwise spawn a new kitty
+if [ -S "$SOCKET" ]; then
+  kitty @ --to unix:$SOCKET launch --type=overlay --keep-focus bash -lc "bash '$TMP' $ARGS"
+else
+  kitty --hold bash -lc "bash '$TMP' $ARGS"
+fi
+
+# note: the temporary script deletes itself when you press 'q' (inside the viewer).
+

@@ -1,0 +1,62 @@
+2026-01-12 12:12:49.955 [info] Started local extension host with pid 5318.
+2026-01-12 12:12:50.618 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-12 12:12:52.794 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-12 12:12:53.998 [info] Auto updating outdated extensions. ms-python.python, ms-python.vscode-python-envs
+2026-01-12 12:12:55.141 [info] [perf] Render performance baseline is 38ms
+2026-01-12 12:12:55.526 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at m8 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64420)
+    at new ud (file:///opt/visual-studio-code/resources/app/out/main.js:30:67800)
+    at new Jr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69238)
+    at ud.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:69015)
+    at A2.call (file:///opt/visual-studio-code/resources/app/out/main.js:91:106730)
+    at Uf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14882)
+    at Uf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14405)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13807)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2615)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5389)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5573)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at W (file:///opt/visual-studio-code/resources/app/out/main.js:28:7839)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10842)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106626)
+    at Session.emit (node:events:519:28)
+2026-01-12 12:12:57.145 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-12 12:13:01.290 [info] Started local extension host with pid 5807.
+2026-01-12 12:13:04.410 [info] Auto updating outdated extensions. ms-python.python, ms-python.vscode-python-envs
+2026-01-12 12:13:04.595 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-12 12:13:04.863 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-12 12:13:06.314 [info] [perf] Render performance baseline is 62ms
+2026-01-12 12:13:07.013 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at m8 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64420)
+    at new ud (file:///opt/visual-studio-code/resources/app/out/main.js:30:67800)
+    at new Jr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69238)
+    at ud.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:69015)
+    at A2.call (file:///opt/visual-studio-code/resources/app/out/main.js:91:106730)
+    at Uf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14882)
+    at Uf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14405)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13807)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2615)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5389)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5573)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at W (file:///opt/visual-studio-code/resources/app/out/main.js:28:7839)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10842)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106626)
+    at Session.emit (node:events:519:28)
+2026-01-12 12:13:08.616 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-12 12:13:10.903 [error] Unknown error while installing extension ms-python.vscode-python-envs: Unknown: Unknown error while installing extension ms-python.vscode-python-envs
+    at Wh.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1669)
+2026-01-12 12:13:15.050 [error] Unknown error while installing extension ms-python.python: Unknown: Unknown error while installing extension ms-python.python
+    at Wh.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1669)

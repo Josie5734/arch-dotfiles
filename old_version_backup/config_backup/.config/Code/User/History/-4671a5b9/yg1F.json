@@ -1,0 +1,6 @@
+{
+    "workbench.sideBar.location": "right",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "PICO-8 Editor-Only",
+    "workbench.editor.empty.hint": "hidden"
+}

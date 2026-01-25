@@ -1,0 +1,161 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "00cbe2134ae0eafd87483a37fc2e52ad320aae1f37453f9dd4c0b30db1d2f0ef",
+    "telemetry.devDeviceId": "325c6556-611d-4222-810b-1eaa331bc1f1",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/josie/Documents/programming/python/new"
+            },
+            {
+                "folderUri": "file:///home/josie/Documents/programming/python/ppcli"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/josie/.lexaloffle/pico-8/carts/games/breakout": "__default__profile__",
+            "file:///home/josie/.config/Code/Workspaces/1766057363799/workspace.json": "__default__profile__",
+            "file:///home/josie/.lexaloffle/pico-8/carts": "280b8121",
+            "file:///home/josie/.lexaloffle/pico-8/carts/tests/vectors": "280b8121",
+            "file:///home/josie/.lexaloffle/pico-8/carts/games/spider8": "280b8121",
+            "file:///home/josie/.lexaloffle/pico-8/carts/games/gearshift": "280b8121",
+            "file:///home/josie/.lexaloffle/pico-8/carts/games/uno": "280b8121",
+            "file:///home/josie/Documents/programming/python": "7e7de447",
+            "file:///home/josie/Documents/programming/python/PestProfessor": "7e7de447",
+            "file:///home/josie/Documents/programming/python/pestprofessor": "7e7de447",
+            "file:///home/josie/Documents/programming/python/ppcli": "7e7de447",
+            "file:///home/josie/.lexaloffle/pico-8/carts/games/cells": "7e7de447",
+            "file:///home/josie/Documents/programming/python/puter-vision": "7e7de447",
+            "file:///home/josie/Documents/programming/python/metronome": "7e7de447",
+            "file:///home/josie/Documents/programming/python/new": "7e7de447"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/josie/Documents/programming/python/ppcli",
+            "backupPath": "/home/josie/.config/Code/Backups/30dcca65a7cba29affa1858964f6fd33",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 1886,
+                "height": 985
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 360,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 360,
+            "auxiliaryBarWidth": 234,
+            "workspaces": {
+                "3c0fc21f2c98a4a1b6bbcddd9dec18e0": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "726f053a350d7cafc7c6abd8ae38f1e7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "65b8e1dea3cfaa59fbd90a77232cf81d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1bba90b908715f9ae1c75f59d651dcd7": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "69a2c3f074d8d62358ae353eb46093bc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6a5504d3a6693e1035889df1f7b82c08": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "829c76c81272afb36600ebcb560b507b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "219d6bac0c05eb073ca8e9259ec5c784": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a4f5a15d6ddeb077e5bc13e669a9d8a5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7a56e79319516cf37b872f21aeef0096": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "45ac6a147485a009a849c1c818a7c44e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "99c609b292cda71359492959afa58b4e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f18859d1b21549c605b2c10a0484052b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "userDataProfiles": [
+        {
+            "location": "280b8121",
+            "name": "Pico",
+            "useDefaultFlags": {}
+        },
+        {
+            "location": "7e7de447",
+            "name": "Python",
+            "icon": "snake",
+            "useDefaultFlags": {
+                "settings": true,
+                "keybindings": true,
+                "snippets": true,
+                "mcp": true,
+                "tasks": true
+            }
+        }
+    ]
+}

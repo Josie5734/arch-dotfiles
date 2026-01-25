@@ -1,0 +1,134 @@
+2026-01-05 15:26:05.244 [info] Started local extension host with pid 892.
+2026-01-05 15:26:08.835 [error] Failed to fetch entitlements Offline
+2026-01-05 15:26:09.079 [error] Failed to fetch token entitlements Offline
+2026-01-05 15:26:09.284 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-05 15:26:09.307 [error] [chat entitlement] request: error Offline: Offline
+2026-01-05 15:26:09.384 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-05 15:26:09.393 [error] [chat entitlement] request: error Offline: Offline
+2026-01-05 15:26:10.401 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at r8 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64420)
+    at new ld (file:///opt/visual-studio-code/resources/app/out/main.js:30:67800)
+    at new Hr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69238)
+    at ld.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:69015)
+    at y2.call (file:///opt/visual-studio-code/resources/app/out/main.js:91:107011)
+    at _f.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14405)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13807)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2615)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5389)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5577)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at N (file:///opt/visual-studio-code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2026-01-05 15:26:10.639 [warning] Failed to fetch chat participant registry Offline
+2026-01-05 15:26:10.766 [info] [perf] Render performance baseline is 33ms
+2026-01-05 15:28:43.806 [info] Started local extension host with pid 1502.
+2026-01-05 15:28:46.311 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-05 15:28:46.566 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-05 15:28:48.193 [info] [perf] Render performance baseline is 42ms
+2026-01-05 15:28:48.334 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at r8 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64420)
+    at new ld (file:///opt/visual-studio-code/resources/app/out/main.js:30:67800)
+    at new Hr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69238)
+    at ld.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:69015)
+    at y2.call (file:///opt/visual-studio-code/resources/app/out/main.js:91:107011)
+    at _f.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14405)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13807)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2615)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5389)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5577)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at N (file:///opt/visual-studio-code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2026-01-05 15:28:48.456 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-05 15:57:37.876 [info] Started local extension host with pid 5323.
+2026-01-05 15:57:38.390 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-01-05 15:57:38.874 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-05 15:57:39.340 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-05 15:57:40.710 [info] [perf] Render performance baseline is 30ms
+2026-01-05 15:57:40.743 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-05 16:07:02.391 [info] Started local extension host with pid 7372.
+2026-01-05 16:07:03.546 [error] Cannot read properties of undefined (reading 'querySelector'): TypeError: Cannot read properties of undefined (reading 'querySelector')
+    at vb.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3038:2941)
+    at Sce.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3038:1596)
+    at E.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2349)
+    at E.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2419)
+    at E.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2637)
+    at OCn.Lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3853:44025)
+    at OCn.tb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3853:37409)
+    at Sce.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3853:28205)
+    at E.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2349)
+    at E.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2419)
+2026-01-05 16:07:06.595 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-05 16:07:07.014 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-05 16:07:08.144 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at r8 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64420)
+    at new ld (file:///opt/visual-studio-code/resources/app/out/main.js:30:67800)
+    at new Hr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69238)
+    at ld.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:69015)
+    at y2.call (file:///opt/visual-studio-code/resources/app/out/main.js:91:107011)
+    at _f.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14405)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13807)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2615)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5389)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5577)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at N (file:///opt/visual-studio-code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2026-01-05 16:07:08.385 [info] [perf] Render performance baseline is 57ms
+2026-01-05 16:07:08.631 [error] Failed to fetch MCP registry providers Server returned 404
+2026-01-05 16:07:21.652 [error] [Extension Host] GET /repos/Josie5734/ppcli - 404 with id 5E4E:36DC4C:1FA581:23BDDD:695BE1B6 in 329ms
+2026-01-05 16:09:01.908 [info] Started local extension host with pid 8242.
+2026-01-05 16:09:04.100 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-05 16:09:04.262 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-05 16:09:05.605 [info] [perf] Render performance baseline is 56ms
+2026-01-05 16:09:06.509 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at r8 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64420)
+    at new ld (file:///opt/visual-studio-code/resources/app/out/main.js:30:67800)
+    at new Hr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69238)
+    at ld.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:69015)
+    at y2.call (file:///opt/visual-studio-code/resources/app/out/main.js:91:107011)
+    at _f.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14882)
+    at _f.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14405)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13807)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2615)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5389)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at na.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5577)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at N (file:///opt/visual-studio-code/resources/app/out/main.js:28:7871)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106616)
+    at Session.emit (node:events:519:28)
+2026-01-05 16:09:09.096 [error] Failed to fetch MCP registry providers Server returned 404

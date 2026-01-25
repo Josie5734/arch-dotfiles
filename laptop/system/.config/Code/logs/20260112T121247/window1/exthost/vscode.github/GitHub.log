@@ -1,0 +1,3 @@
+2026-01-12 12:12:54.957 [info] Log level: Info
+2026-01-12 12:13:06.198 [info] Log level: Info
+2026-01-12 12:13:08.611 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for Josie5734/ppcli/84a9b646fe2c75d88feaa8e13ca0bc5451f850b5: TypeError: Cannot read properties of null (reading 'author')

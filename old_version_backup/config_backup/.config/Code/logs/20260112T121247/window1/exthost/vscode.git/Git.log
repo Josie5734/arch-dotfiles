@@ -1,0 +1,103 @@
+2026-01-12 12:12:54.411 [info] [main] Log level: Info
+2026-01-12 12:12:54.411 [info] [main] Validating found git in: "git"
+2026-01-12 12:12:54.411 [info] [main] Using git "2.52.0" from "git"
+2026-01-12 12:12:54.411 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-12 12:12:54.411 [info] > git rev-parse --show-toplevel [17ms]
+2026-01-12 12:12:54.411 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-01-12 12:12:54.411 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-12 12:12:54.411 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-01-12 12:12:54.411 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-12 12:12:54.411 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-01-12 12:12:54.411 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-12 12:12:54.931 [info] > git rev-parse --show-toplevel [11ms]
+2026-01-12 12:12:54.931 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-01-12 12:13:06.038 [info] [main] Log level: Info
+2026-01-12 12:13:06.038 [info] [main] Validating found git in: "git"
+2026-01-12 12:13:06.038 [info] [main] Using git "2.52.0" from "git"
+2026-01-12 12:13:06.038 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-12 12:13:06.038 [info] > git rev-parse --show-toplevel [13ms]
+2026-01-12 12:13:06.038 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [17ms]
+2026-01-12 12:13:06.038 [info] [Model][openRepository] Opened repository (path): /home/josie/Documents/programming/python/ppcli
+2026-01-12 12:13:06.038 [info] [Model][openRepository] Opened repository (real path): /home/josie/Documents/programming/python/ppcli
+2026-01-12 12:13:06.038 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-12 12:13:06.038 [info] > git rev-parse --show-toplevel [59ms]
+2026-01-12 12:13:06.038 [info] > git config --get commit.template [68ms]
+2026-01-12 12:13:06.039 [info] > git rev-parse --show-toplevel [12ms]
+2026-01-12 12:13:06.046 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2026-01-12 12:13:06.048 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-12 12:13:06.090 [info] > git status -z -uall [25ms]
+2026-01-12 12:13:06.090 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-01-12 12:13:06.129 [info] > git rev-parse --show-toplevel [72ms]
+2026-01-12 12:13:06.134 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-12 12:13:06.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2026-01-12 12:13:06.167 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2026-01-12 12:13:06.170 [warning] [Git][config] git config failed: Failed to execute git
+2026-01-12 12:13:06.179 [info] > git config --get commit.template [31ms]
+2026-01-12 12:13:06.191 [info] > git reflog main --grep-reflog=branch: Created from *. [14ms]
+2026-01-12 12:13:06.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2026-01-12 12:13:06.204 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2026-01-12 12:13:06.204 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-01-12 12:13:06.204 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-01-12 12:13:06.268 [info] > git status -z -uall [41ms]
+2026-01-12 12:13:06.268 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2026-01-12 12:13:06.285 [info] > git merge-base refs/heads/main refs/remotes/origin/main [67ms]
+2026-01-12 12:13:06.336 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4f81a10555494b3aae90177eedec1f4ea553905d...refs/remotes/origin/main -- [33ms]
+2026-01-12 12:13:06.341 [info] > git merge-base refs/heads/main refs/remotes/origin/main [60ms]
+2026-01-12 12:13:06.431 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4f81a10555494b3aae90177eedec1f4ea553905d...refs/remotes/origin/main -- [77ms]
+2026-01-12 12:13:06.431 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [99ms]
+2026-01-12 12:13:06.680 [info] > git check-ignore -v -z --stdin [214ms]
+2026-01-12 12:13:06.811 [info] > git check-ignore -v -z --stdin [25ms]
+2026-01-12 12:13:06.884 [info] > git show --textconv :db_functions.py [13ms]
+2026-01-12 12:13:06.893 [info] > git ls-files --stage -- db_functions.py [12ms]
+2026-01-12 12:13:06.905 [info] > git cat-file -s a7977442d7f70f82985851f2b625521f703b59d8 [7ms]
+2026-01-12 12:13:07.069 [info] > git blame --root --incremental 84a9b646fe2c75d88feaa8e13ca0bc5451f850b5 -- db_functions.py [14ms]
+2026-01-12 12:13:08.674 [info] > git merge-base main origin/main [11ms]
+2026-01-12 12:13:55.543 [info] > git log --oneline --cherry main...main@{upstream} -- [5ms]
+2026-01-12 12:13:57.187 [info] > git pull --tags origin main [1635ms]
+2026-01-12 12:13:57.187 [info] /bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+From https://github.com/Josie5734/ppcli
+ * branch            main       -> FETCH_HEAD
+2026-01-12 12:13:57.260 [info] > git ls-files --stage -- db_functions.py [4ms]
+2026-01-12 12:13:57.268 [info] > git cat-file -s a7977442d7f70f82985851f2b625521f703b59d8 [2ms]
+2026-01-12 12:13:57.288 [info] > git show --textconv :db_functions.py [4ms]
+2026-01-12 12:13:58.374 [info] > git ls-files --stage -- db_functions.py [4ms]
+2026-01-12 12:13:58.379 [info] > git cat-file -s a7977442d7f70f82985851f2b625521f703b59d8 [1ms]
+2026-01-12 12:13:58.389 [info] > git show --textconv :db_functions.py [2ms]
+2026-01-12 12:13:58.526 [info] > git push origin main:main [1333ms]
+2026-01-12 12:13:58.526 [info] /bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+To https://github.com/Josie5734/ppcli.git
+   4f81a10..84a9b64  main -> main
+2026-01-12 12:13:58.558 [info] > git config --get commit.template [16ms]
+2026-01-12 12:13:58.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-01-12 12:13:58.591 [info] > git status -z -uall [15ms]
+2026-01-12 12:13:58.594 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-01-12 12:13:58.622 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2026-01-12 12:13:58.630 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 84a9b646fe2c75d88feaa8e13ca0bc5451f850b5...refs/remotes/origin/main -- [2ms]
+2026-01-12 12:13:58.631 [info] > git log --oneline --cherry main...main@{upstream} -- [11ms]
+2026-01-12 12:13:58.657 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [11ms]
+2026-01-12 12:13:59.392 [info] > git merge-base main origin/main [1ms]
+2026-01-12 12:13:59.894 [info] > git ls-files --stage -- db_functions.py [3ms]
+2026-01-12 12:13:59.908 [info] > git cat-file -s a7977442d7f70f82985851f2b625521f703b59d8 [3ms]
+2026-01-12 12:13:59.920 [info] > git show --textconv :db_functions.py [3ms]
+2026-01-12 12:13:59.929 [info] > git pull --tags origin main [1291ms]
+2026-01-12 12:13:59.929 [info] /bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+From https://github.com/Josie5734/ppcli
+ * branch            main       -> FETCH_HEAD
+2026-01-12 12:13:59.941 [info] > git config --get commit.template [6ms]
+2026-01-12 12:13:59.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-01-12 12:13:59.954 [info] > git status -z -uall [7ms]
+2026-01-12 12:13:59.955 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-12 12:14:01.029 [info] > git config --get commit.template [11ms]
+2026-01-12 12:14:01.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-01-12 12:14:01.043 [info] > git status -z -uall [7ms]
+2026-01-12 12:14:01.044 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-12 12:14:01.110 [info] > git ls-files --stage -- db_functions.py [2ms]
+2026-01-12 12:14:01.116 [info] > git cat-file -s a7977442d7f70f82985851f2b625521f703b59d8 [1ms]
+2026-01-12 12:14:01.125 [info] > git show --textconv :db_functions.py [2ms]

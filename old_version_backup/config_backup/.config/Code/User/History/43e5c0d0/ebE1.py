@@ -1,0 +1,106 @@
+import sqlite3
+
+    # what does this file do
+
+    # "connection" function to create a connection to the database and create an empty database file if needed
+    # "{tablename}" functions to individually create each table 
+    # "create_full_db" function that does previous 2 things in one go
+
+    # has a temporary "dummy_data" function to put in some placeholder data, might be moved/removed later, or modified, unsure
+
+
+# filename for the database
+database = "pestprof.db"
+
+# create the data base and setup up connections + cursors
+def connection(database):
+
+    #connect to database and make a cursor for executing commands (also creates database if it doesnt exist)
+    connection = sqlite3.connect(database)
+    cursor = connection.cursor()
+
+    # return cursor and connection
+    return cursor,connection
+
+# create employees table
+def employees(cursor,connection):
+    
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS employees (
+            EMPLOYEEID INTEGER PRIMARY KEY,
+            FNAME TEXT, 
+            SNAME TEXT,
+            START INTEGER, 
+            END INTEGER
+        )
+    ''')
+
+    connection.commit()
+
+# create customers table
+def customers(cursor,connection):
+
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS customers (
+            CUSTOMERID INTEGER PRIMARY KEY,
+            FNAME TEXT, 
+            SNAME TEXT,
+            ADDRESS TEXT, 
+            PHONE INTEGER,
+            EMAIL TEXT
+        )
+    ''')
+
+    connection.commit()
+
+# create vehicles tables
+def vehicles(cursor,connection):
+
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS vehicles (
+            VEHICLEID INTEGER PRIMARY KEY
+        )
+    ''') # needs more stuff i cant remember what else was in this one
+
+    connection.commit()
+
+# create equipment table
+def equipment(cursor,connection):
+
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS equipment (
+            ITEMID INTEGER PRIMARY KEY,
+            NAME TEXT, 
+            STOCK INTEGER,
+            TARGET INTEGER
+        )
+    ''') # needs more stuff cant remember
+
+    connection.commit()
+    
+# create jobs table
+def jobs(cursor,connection):
+
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS jobs (
+            JOBID INTEGER PRIMARY KEY
+        )
+    ''') # needs more stuff cant remember
+
+    connection.commit()
+    
+def create_full_db(cursor,connection):
+    employees(cursor,connection)
+    customers(cursor,connection)
+    vehicles(cursor,connection)
+    equipment(cursor,connection)
+    jobs(cursor,connection)
+
+
+
+def dummy_data(cursor,connection):
+    cursor.execute("INSERT INTO employees (EMPLOYEEID, FNAME, SNAME, START, END) VALUES (1, 'steve', 'stevenson', 4, 6)")
+    cursor.execute("INSERT INTO employees (EMPLOYEEID, FNAME, SNAME, START, END) VALUES (2, 'john', 'johnson', 2, 4)")
+    cursor.execute("INSERT INTO employees (EMPLOYEEID, FNAME, SNAME, START, END) VALUES (3, 'bob', 'bobson', 5, 8)")
+
+    connection.commit()
