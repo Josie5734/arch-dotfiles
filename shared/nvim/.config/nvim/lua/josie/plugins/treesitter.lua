@@ -1,16 +1,9 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
-	lazy = false,
 	build = ":TSUpdate",
-	dependencies = {
-		"windwp/nvim-ts-autotag",
-	},
 	config = function()
 		-- import nvim-treesitter plugin
-		local treesitter = require("nvim-treesitter")
-
-		-- configure treesitter
-		treesitter.setup({ -- enable syntax highlighting
+		require("nvim-treesitter").setup({ -- enable syntax highlighting
 			highlight = {
 				enable = true,
 			},
