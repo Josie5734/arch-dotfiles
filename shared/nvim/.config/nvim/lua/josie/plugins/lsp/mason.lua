@@ -9,7 +9,7 @@ return {
 				"html", --html
 				"cssls", --css
 				"tailwindcss", --css tailwind
-				"tsserver", --javascript
+				"ts_ls", --javascript
 				"eslint", --javascript
 			},
 		},
