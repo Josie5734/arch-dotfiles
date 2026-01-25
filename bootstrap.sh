@@ -5,7 +5,7 @@ cd shared
 stow -t ~ kitty
 stow -t ~ nvim
 stow -t ~ zsh
-
+cd ..
 
 # get whether on pc or laptop 
 hostname="$(hostnamectl --static)"
