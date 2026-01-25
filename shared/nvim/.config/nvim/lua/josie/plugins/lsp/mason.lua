@@ -4,8 +4,13 @@ return {
 		opts = {
 			-- list of servers for mason to install
 			ensure_installed = {
-				"lua_ls",
-				"pyright",
+				"lua_ls", --lua
+				"pyright", --python
+				"html", --html
+				"cssls", --css
+				"tailwindcss", --css tailwind
+				"tsserver", --javascript
+				"eslint", --javascript
 			},
 		},
 		dependencies = {
@@ -32,6 +37,7 @@ return {
 				"stylua", -- lua formatter
 				"black", -- python formatter
 				"pylint", -- python lint
+				"eslint_d", --javascript lint
 			},
 		},
 		dependencies = {

@@ -10,6 +10,12 @@ return {
 				markdown = { "prettier" },
 				lua = { "stylua" },
 				python = { "black" },
+				javasript = { "prettier" },
+				typescript = { "prettier" },
+				javascriptreact = { "prettier" },
+				typescriptreact = { "prettier" },
+				css = { "prettier" },
+				html = { "prettier" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
