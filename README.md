@@ -1,6 +1,5 @@
 # dotfiles-puter
 
-<<<<<<< HEAD
 this is a repo containing dotfiles for my pc and laptop
 
 Distro: Arch
@@ -11,25 +10,11 @@ Desktop:
 - laptop: Sway - with swaybg, swaync, swayidle, swaylock (effects version)
   - Bar: Waybar
   - DMenu: Fuzzel
-=======
-this is a repo containing dotfiles for my arch pc and arch laptop
-
-both machines are running this general setup:
-
-Distro: Arch
-
-WM: Sway - with swaybg, swaync, swayidle, swaylock (effects version)
-
-Bar: Waybar
-
-DMenu: Fuzzel
->>>>>>> a9ef0ef5787a8b6e43320407d98c527766baf8b3
 
 Shell: ZSH (with oh-my-zsh)
 
 Terminal: Kitty
 
-<<<<<<< HEAD
 File Explorer: Dolphin(pc) Thunar(laptop)
 
 Browser: Firefox
@@ -56,27 +41,3 @@ including checking which machine it is on to do pc or laptop specific stuff
 
 i do prefer dolphin over thunar as a file explorer but it requires all of the kde dependencies to install.
 i dont have any of those on the laptop and i didnt want to use any other kde programs so i just used thunar instead
-=======
-File Explorer: Thunar
-
-Browser: Firefox
-
-***
-
-## Notes
-
-***
-
-tuigreet is configured with the config file at `/etc/greetd/config.toml` which requires sudo to edit, so it has been ignored from the stow packages. I have left the `config.toml` in the `manual-configs` folder to be manually moved
-
-these files are managed using stow, where `stow -t ~ .` stows global configs such as .config
-
-`stow -t ~ puter` would stow the `puter` specific configs
-
-`stow -t ~ mobile-puter` would stow the `mobile-puter` specific configs
-
-this allows me to have different configs for things like sway on each machine whilst still keeping everything in oneplace
-
-machine specific configs should be stowed first, then global configs afterwards 
-
->>>>>>> a9ef0ef5787a8b6e43320407d98c527766baf8b3
