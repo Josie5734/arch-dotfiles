@@ -1,1 +1,0 @@
-2026-01-02 04:15:59.568 [error] Failed to set sticky bit on /tmp/josie-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/josie-code-zsh'

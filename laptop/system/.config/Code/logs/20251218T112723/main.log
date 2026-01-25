@@ -1,9 +1,0 @@
-2025-12-18 11:27:23.640 [info] update#setState idle
-2025-12-18 11:27:53.643 [info] update#setState checking for updates
-2025-12-18 11:27:53.738 [info] update#setState available for download
-2025-12-18 11:29:23.029 [info] Extension host with pid 11488 exited with code: 0, signal: unknown.
-2025-12-18 11:29:27.032 [info] Extension host with pid 12780 exited with code: 0, signal: unknown.
-2025-12-18 13:25:43.779 [info] Extension host with pid 13005 exited with code: 0, signal: unknown.
-2025-12-18 13:25:45.339 [info] Extension host with pid 14951 exited with code: 0, signal: unknown.
-2025-12-18 13:25:59.862 [info] Extension host with pid 14971 exited with code: 0, signal: unknown.
-2025-12-18 13:26:06.981 [info] Extension host with pid 15072 exited with code: 0, signal: unknown.

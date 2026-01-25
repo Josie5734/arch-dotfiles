@@ -1,7 +1,0 @@
-2026-01-05 15:26:06.418 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
-2026-01-05 15:26:08.265 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2026-01-05 15:26:10.403 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2026-01-05 15:26:10.889 [error] #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2026-01-05 15:26:13.518 [error] #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2026-01-05 15:26:24.594 [error] #6: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2026-01-05 15:26:27.497 [error] #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
