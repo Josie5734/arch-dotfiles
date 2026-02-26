@@ -1,2 +1,3 @@
-2026/01/21-12:54:29.761 179d Creating DB /home/josie/.config/obsidian/Local Storage/leveldb since it was missing.
-2026/01/21-12:54:29.774 179d Reusing MANIFEST /home/josie/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2026/01/31-18:47:40.987 3565 Reusing MANIFEST /home/josie/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2026/01/31-18:47:40.993 3565 Recovering log #3
+2026/01/31-18:47:40.993 3565 Reusing old log /home/josie/.config/obsidian/Local Storage/leveldb/000003.log 

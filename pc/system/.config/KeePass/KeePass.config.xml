@@ -39,8 +39,8 @@
 	</Application>
 	<Logging />
 	<MainWindow>
-		<X>2719</X>
-		<Y>341</Y>
+		<X>3955</X>
+		<Y>548</Y>
 		<Width>880</Width>
 		<Height>737</Height>
 		<SplitterHorizontalFrac>0.8333</SplitterHorizontalFrac>
@@ -78,7 +78,9 @@
 	</MainWindow>
 	<UI>
 		<TrayIcon />
-		<Hiding />
+		<Hiding>
+			<HideInEntryWindow>false</HideInEntryWindow>
+		</Hiding>
 		<StandardFont>
 			<Family>Microsoft Sans Serif</Family>
 			<Size>8.25</Size>

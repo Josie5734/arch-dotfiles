@@ -117,7 +117,9 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1" />
+         usecurrent="1"
+         width="21.7571090337798"
+         height="20.9707070898822" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -153,14 +155,14 @@
          end="0"
          start="0"
          usecurrent="0"
-         rx="12.417728994775"
-         ry="13.659503065695" />
+         rx="3.58795684153639"
+         ry="3.58795684153639" />
       <eventcontext
          id="star"
          magnitude="5"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.5"
+         proportion="0.926756551270492"
          isflatsided="0" />
       <eventcontext
          id="spiral"
@@ -610,7 +612,7 @@
     <group
        id="preferences"
        state="1"
-       page="9" />
+       page="10" />
     <group
        id="gradienteditor" />
     <group
@@ -622,7 +624,7 @@
        path="">
       <group
          id="exportarea"
-         value="drawing" />
+         value="selection" />
       <group
          id="defaultxdpi" />
       <group
