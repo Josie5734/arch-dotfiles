@@ -13,31 +13,34 @@ CommandAllWheel=Previous/Next Desktop
 CommandInactiveTitlebar2=Close
 CommandTitlebarWheel=Above/Below
 
-[Tiling]
-padding=4
-
 [Tiling][3189b44a-d7b5-4a70-88d0-f079aa5867d8][0c8e3a65-e03d-468c-84ae-768c78655c43]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3189b44a-d7b5-4a70-88d0-f079aa5867d8][709d6159-6223-4845-bebe-b376c24284ba]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3189b44a-d7b5-4a70-88d0-f079aa5867d8][9291401f-933f-4ef6-8137-614cecfa4d35]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3189b44a-d7b5-4a70-88d0-f079aa5867d8][c45296e5-bd79-4e41-a27b-7b01f9730d04]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][9d705e58-8e96-4105-a34d-126686c95e12][0c8e3a65-e03d-468c-84ae-768c78655c43]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][9d705e58-8e96-4105-a34d-126686c95e12][709d6159-6223-4845-bebe-b376c24284ba]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][9d705e58-8e96-4105-a34d-126686c95e12][9291401f-933f-4ef6-8137-614cecfa4d35]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][9d705e58-8e96-4105-a34d-126686c95e12][c45296e5-bd79-4e41-a27b-7b01f9730d04]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
