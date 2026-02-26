@@ -9,7 +9,7 @@ return {
 				json = { "prettier" },
 				markdown = { "prettier" },
 				lua = { "stylua" },
-				python = { "black" },
+				python = { "ruff" },
 				javasript = { "prettier" },
 				typescript = { "prettier" },
 				javascriptreact = { "prettier" },

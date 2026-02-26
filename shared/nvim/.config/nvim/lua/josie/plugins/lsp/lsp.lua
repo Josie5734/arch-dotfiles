@@ -15,5 +15,18 @@ return {
 		vim.lsp.config("*", {
 			capabilities = capabilities,
 		})
+
+		-- ruff configs
+		-- vim.lsp.config("ruff", {
+		-- 	init_options = {
+		-- 		settings = {
+		-- 			lint = {
+		-- 				preview = false,
+		-- 			},
+		-- 			lineLength = 10,
+		-- 		},
+		-- 	},
+		-- })
+		-- vim.lsp.enable("ruff", true)
 	end,
 }
