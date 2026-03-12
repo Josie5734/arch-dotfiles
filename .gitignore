@@ -1,0 +1,11 @@
+# Obsidian config - ignore all caches, logs, and temporary files
+/pc/system/.config/obsidian/*
+
+# include these (settings and stuff)
+!/pc/system/.config/obsidian/Preferences
+!/pc/system/.config/obsidian/obsidian.json
+!/pc/system/.config/obsidian/id
+
+# allow folders for plugins
+/pc/system/.config/obsidian/plugins/
+!/pc/system/.config/obsidian/plugins/**/
