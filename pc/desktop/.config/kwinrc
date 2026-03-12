@@ -5,7 +5,7 @@ Number=2
 Rows=1
 
 [Effect-overview]
-BorderActivate=0,7
+BorderActivate=9
 
 [MouseBindings]
 CommandActiveTitlebar2=Close

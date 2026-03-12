@@ -78,9 +78,7 @@
 	</MainWindow>
 	<UI>
 		<TrayIcon />
-		<Hiding>
-			<HideInEntryWindow>false</HideInEntryWindow>
-		</Hiding>
+		<Hiding />
 		<StandardFont>
 			<Family>Microsoft Sans Serif</Family>
 			<Size>8.25</Size>
@@ -132,7 +130,7 @@
 		<UserProfiles />
 	</Search>
 	<Defaults>
-		<OptionsTabIndex>0</OptionsTabIndex>
+		<OptionsTabIndex>3</OptionsTabIndex>
 		<KeySources>
 			<Association>
 				<DatabasePath>../../../home/josie/Documents/keepass/Database.kdbx</DatabasePath>
