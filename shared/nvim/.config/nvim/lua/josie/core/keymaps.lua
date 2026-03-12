@@ -3,7 +3,7 @@ vim.g.mapleader = " " --leader key
 local keymap = vim.keymap --shorten commands
 
 --general/misc
-keymap.set("n", "<esc>", ":nohl<cr>", { desc = "Clear Search Highlights" })
+keymap.set("n", "<esc>", ":nohl<cr>", { desc = "Clear Search Highlights", silent = true })
 
 --save/exit stuff
 keymap.set("n", "<leader>ww", ":w<cr>", { desc = "Save" })
