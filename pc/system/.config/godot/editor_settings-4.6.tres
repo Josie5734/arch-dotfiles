@@ -1,8 +1,5 @@
 [gd_resource type="EditorSettings" format=3]
 
-[sub_resource type="InputEventKey" id="InputEventKey_tlipp"]
-keycode = 4194326
-
 [resource]
 interface/theme/base_color = Color(0.161, 0.161, 0.161, 1)
 interface/theme/accent_color = Color(0.337, 0.62, 1, 1)
@@ -69,10 +66,3 @@ godot_neovim/timeoutlen = 1000
 _export_preset_advanced_mode = false
 export/android/scrcpy/screen_size = "1920x1080/120"
 export/macos/actool = ""
-shortcuts = [{
-"name": "spatial_editor/viewport_zoom_modifier_1",
-"shortcuts": [SubResource("InputEventKey_tlipp")]
-}, {
-"name": "spatial_editor/viewport_zoom_modifier_2",
-"shortcuts": []
-}]
