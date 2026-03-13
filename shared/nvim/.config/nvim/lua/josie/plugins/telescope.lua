@@ -21,6 +21,9 @@ return {
 						["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist,
 					},
 				},
+				preview = { --disable syntax highlighting in the preview, it was giving errors and i dont need it
+					treesitter = false,
+				},
 			},
 		})
 
