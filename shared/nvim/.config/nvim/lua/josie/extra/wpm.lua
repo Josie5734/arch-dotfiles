@@ -1,1 +1,0 @@
-/home/josie/programming/nvim/plugins/wpm/wpm.lua

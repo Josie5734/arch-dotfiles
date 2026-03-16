@@ -1,6 +1,4 @@
---wpm tracker
-wpm = require("josie.extra.wpm")
-wpm.setup()
+
 
 --neostats
 vim.opt.runtimepath:prepend("~/programming/nvim/plugins/neostats") --add plugin folder to path
@@ -12,7 +10,7 @@ vim.api.nvim_create_user_command("ReloadNeostats", function()
 	--call close_window to make sure windows are closed on exit
 	local ok, mod = pcall(require, "neostats")
 	if ok and mod.close_window then
-		mod.close_window()
+		mod.exit()
 	end
 
 	--unload plugin module
