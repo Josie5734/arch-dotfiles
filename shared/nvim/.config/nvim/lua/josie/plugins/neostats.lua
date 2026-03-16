@@ -1,6 +1,6 @@
 local local_path = vim.fn.expand("~/programming/nvim/plugins/neostats") --path to local version of plugin
 
-if vim.loop.fs(local_path) then --if that path exists
+if vim.loop.fs_stat(local_path) then --if that path exists
 	return { --return the plugin as a local install
 		{
 			dir = local_path,

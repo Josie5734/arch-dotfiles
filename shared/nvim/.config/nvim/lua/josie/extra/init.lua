@@ -1,10 +1,3 @@
-
-
---neostats
-vim.opt.runtimepath:prepend("~/programming/nvim/plugins/neostats") --add plugin folder to path
-neostats = require("neostats")
-neostats.setup()
-
 --command for hot reloading plugin
 vim.api.nvim_create_user_command("ReloadNeostats", function()
 	--call close_window to make sure windows are closed on exit
