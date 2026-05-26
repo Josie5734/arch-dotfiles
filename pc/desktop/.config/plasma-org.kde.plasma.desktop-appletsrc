@@ -48,6 +48,12 @@ wallpaperplugin=org.kde.color
 DialogHeight=630
 DialogWidth=810
 
+[Containments][28][General]
+changedPositions={}
+lastResolution=1920x1080
+positions={"1920x1080":["1","17"]}
+sortMode=-1
+
 [Containments][28][Wallpaper][org.kde.color][General]
 Color=0,0,0
 
@@ -87,6 +93,12 @@ wallpaperplugin=org.kde.color
 [Containments][30][ConfigDialog]
 DialogHeight=630
 DialogWidth=800
+
+[Containments][30][General]
+changedPositions={"desktop:/Windows.desktop":["1080x1920","14","9"]}
+lastResolution=1080x1920
+positions={"1080x1920":["15","10","desktop:/Windows.desktop","14","9"]}
+sortMode=-1
 
 [Containments][30][Wallpaper][org.kde.color][General]
 Color=0,0,0
@@ -530,4 +542,4 @@ AppletOrder=83;105;84;85;86;103;104
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/Windows.desktop,2,9996fc96-71cf-43d9-972b-67a6827e03ea
