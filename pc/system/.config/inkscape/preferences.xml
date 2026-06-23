@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="347.714170921507"
-         height="292.922843873032" />
+         width="214.999990388167"
+         height="62.0000019223679" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -155,8 +155,8 @@
          end="0"
          start="0"
          usecurrent="0"
-         rx="3.58795684153639"
-         ry="3.58795684153639" />
+         rx="2.6107404363437"
+         ry="2.95883884580117" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -398,7 +398,8 @@
        selcue="1"
        gradientdrag="0"
        changelayer="1"
-       changepage="1" />
+       changepage="1"
+       lock_aspect_ratio="1" />
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
@@ -629,7 +630,10 @@
          id="defaultxdpi" />
       <group
          id="batchexportarea"
-         value="layer" />
+         value="page" />
+      <group
+         id="batch"
+         path="/home/josie/Documents/aesseal presentation" />
     </group>
     <group
        id="save_as"
@@ -655,9 +659,10 @@
        path=""
        ask="1"
        ask_svg="1"
-       link="link"
+       link="embed"
        scale="auto"
-       import_mode_svg="include" />
+       import_mode_svg="include"
+       forcexdpi="0" />
     <group
        id="clonetiler"
        dotrace="0" />
@@ -986,7 +991,8 @@
        canvas="dark-check">
       <group
          id="shown"
-         ver1.4.3="1" />
+         ver1.4.3="1"
+         ver1.4.4="1" />
     </group>
     <group
        id="rendering" />
@@ -1031,10 +1037,31 @@
      id="extensions"
      org.inkscape.output.png.inkscape.png_bitdepth="99"
      org.inkscape.output.png.inkscape.png_compression="6"
-     org.inkscape.output.png.inkscape.png_antialias="2" />
+     org.inkscape.output.png.inkscape.png_antialias="2"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.template.paper.max="210.0"
+     org.inkscape.template.paper.min="148.0"
+     org.inkscape.template.paper.unit="mm"
+     org.inkscape.template.paper.orientation="port"
+     org.inkscape.template.video.height="4320.0"
+     org.inkscape.template.video.unit="px"
+     org.inkscape.template.video.width="7680.0"
+     org.inkscape.template.social.height="720.0"
+     org.inkscape.template.social.unit="px"
+     org.inkscape.template.social.width="720.0"
+     org.inkscape.template.digital.height="768.0"
+     org.inkscape.template.digital.unit="px"
+     org.inkscape.template.digital.width="1024.0"
+     org.inkscape.template.other.size="512.0"
+     org.inkscape.template.other.unit="px"
+     org.inkscape.generate.printing_marks.where="canvas"
+     org.inkscape.generate.printing_marks.unit="px"
+     org.inkscape.generate.printing_marks.bleed_marks="1"
+     org.inkscape.generate.printing_marks.colour_bars="0"
+     org.inkscape.generate.printing_marks.registration_marks="0" />
   <group
      id="desktop"
-     style="fill:#ffffff;text-orientation:auto;stroke-width:2.07496063;stroke:#ffffff">
+     style="fill:#ffffff;text-orientation:auto;stroke-width:0;stroke:#63d297;-inkscape-font-specification:'Proxima Nova';font-family:'Proxima Nova';font-size:18.66666667px">
     <group
        width="640"
        height="480"

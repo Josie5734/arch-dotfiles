@@ -33,6 +33,33 @@ remove=true
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
+[Containments][112]
+activityId=f64b7c86-a0a5-483d-9b97-f03b6a985985
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][113]
+activityId=f64b7c86-a0a5-483d-9b97-f03b6a985985
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][114]
+activityId=f64b7c86-a0a5-483d-9b97-f03b6a985985
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [Containments][28]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
@@ -95,9 +122,9 @@ DialogHeight=630
 DialogWidth=800
 
 [Containments][30][General]
-changedPositions={"desktop:/Windows.desktop":["1080x1920","14","9"]}
+changedPositions={}
 lastResolution=1080x1920
-positions={"1080x1920":["15","10","desktop:/Windows.desktop","14","9"]}
+positions={"1080x1920":["1","10"]}
 sortMode=-1
 
 [Containments][30][Wallpaper][org.kde.color][General]
@@ -207,7 +234,6 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][31][Applets][36][Applets][48][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][31][Applets][36][Applets][49]
@@ -247,7 +273,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][31][Applets][57][Configuration][General]
-launchers=applications:firefox.desktop,applications:steam.desktop,preferred://filemanager
+launchers=applications:firefox.desktop,applications:steam.desktop,preferred://filemanager,applications:kitty.desktop
 
 [Containments][31][General]
 AppletOrder=32;57;111;35;36;110;51
@@ -371,7 +397,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][58][Applets][79][Configuration]
-popupHeight=400
+popupHeight=451
 popupWidth=560
 
 [Containments][58][Applets][80]
@@ -541,5 +567,5 @@ knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasm
 AppletOrder=83;105;84;85;86;103;104
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/Windows.desktop,2,9996fc96-71cf-43d9-972b-67a6827e03ea
+itemsOnDisabledScreens=1,f64b7c86-a0a5-483d-9b97-f03b6a985985,1,desktop:/Windows.desktop
+screenMapping=
