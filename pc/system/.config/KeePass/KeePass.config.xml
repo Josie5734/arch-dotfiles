@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Meta>
-		<Version>2.57.1</Version>
+		<Version>2.61.1</Version>
 		<PreferUserConfiguration>false</PreferUserConfiguration>
 		<OmitItemsWithDefaultValues>true</OmitItemsWithDefaultValues>
 		<DpiFactorX>1</DpiFactorX>
@@ -40,9 +40,9 @@
 	<Logging />
 	<MainWindow>
 		<X>3955</X>
-		<Y>548</Y>
+		<Y>202</Y>
 		<Width>880</Width>
-		<Height>737</Height>
+		<Height>753</Height>
 		<SplitterHorizontalFrac>0.8333</SplitterHorizontalFrac>
 		<SplitterVerticalFrac>0.25</SplitterVerticalFrac>
 		<ToolBar />
@@ -123,10 +123,7 @@
 		<UserProfiles />
 	</PasswordGenerator>
 	<Search>
-		<LastUsedProfile>
-			<SearchMode>Simple</SearchMode>
-			<ComparisonMode>InvariantCultureIgnoreCase</ComparisonMode>
-		</LastUsedProfile>
+		<LastUsedProfile />
 		<UserProfiles />
 	</Search>
 	<Defaults>
