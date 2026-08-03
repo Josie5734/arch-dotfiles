@@ -1,0 +1,27 @@
+[modules]
+left = ["Workspaces"]
+center = ["Tempo","Settings"]
+right = ["SystemInfo"]
+
+[workspaces]
+# only show workspaces for the current monitor
+visibility_mode = "MonitorSpecific"
+
+# catppuccin mocha theme
+[appearance]
+
+success_color = "#a6e3a1"
+warning_color = "#f9e2af"
+danger_color = "#f38ba8"
+text_color = "#cdd6f4"
+
+workspace_colors = [ "#fab387", "#b4befe", "#cba6f7" ]
+
+[appearance.primary_color]
+base = "#fab387"
+text = "#1e1e2e"
+
+[appearance.background_color]
+base = "#1e1e2e"
+weak = "#313244"
+strong = "#45475a"
