@@ -8,6 +8,7 @@ monitors = {
 
 programs = {
     terminal = "kitty",
+    editor = "zeditor",
     fileManager = "kitty -e yazi", --opens a kitty window and runs yazi
     bar = "ashell",
     launcher = "fuzzel",

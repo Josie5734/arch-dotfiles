@@ -10,6 +10,7 @@ local directions = { "left", "right", "up", "down" } --directions
 ---launch programs---
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(programs.terminal)) --terminal
 hl.bind(mainMod .. " + return", hl.dsp.exec_cmd(programs.terminal)) --alternate terminal launch
+hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd(programs.editor)) --launch zeditor
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(programs.fileManager)) --file manager
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(programs.launcher)) --launcher
 

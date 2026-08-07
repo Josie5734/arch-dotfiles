@@ -17,11 +17,14 @@ require("config.animations") --animations
 ---- AUTOSTART ----
 -------------------
 
---startup programs
+--startup
 hl.on("hyprland.start", function ()
-    hl.exec_cmd("systemctl --user start hyprpolkitagent") --start hyprpolkit
-  hl.exec_cmd(programs.idle)
-  hl.exec_cmd(programs.bar)
+    --startup programs
+    hl.exec_cmd("systemctl --user start hyprpolkitagent") --hyprpolkit
+    hl.exec_cmd(programs.idle) --hypridle
+    hl.exec_cmd(programs.bar) --bar
+
+    hl.dispatch(hl.dsp.focus({ workspace = 2 })) --focus main monitor
 end)
 
 
@@ -70,7 +73,6 @@ hl.config({
     dwindle = {
         force_split = 2, --split new windows to the right/bottom
         preserve_split = true, -- You probably want this
-        smart_split = true, --open new splits in the direction of the cursor
     },
 
     decoration = {

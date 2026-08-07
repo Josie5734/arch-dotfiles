@@ -60,6 +60,7 @@
     "show_branch_status_icon": true,
   },
   "terminal": {
+    "dock": "bottom",
     "button": true,
   },
   "status_bar": {
