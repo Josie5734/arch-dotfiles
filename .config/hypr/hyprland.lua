@@ -24,7 +24,7 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd(programs.idle) --hypridle
     hl.exec_cmd(programs.bar) --bar
 
-    hl.dispatch(hl.dsp.focus({ workspace = 2 })) --focus main monitor
+    hl.dispatch(hl.dsp.focus({ monitor = monitors.benq })) --focus main monitor
 end)
 
 
