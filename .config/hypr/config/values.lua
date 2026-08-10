@@ -15,3 +15,9 @@ programs = {
     browser = "firefox",
     idle = "hypridle"
 }
+
+layout = "scrolling" --global control for the layout
+
+--keybinds
+mainMod = "SUPER" -- Sets "Windows" key as main modifier
+directions = { "left", "right", "up", "down" } --directions

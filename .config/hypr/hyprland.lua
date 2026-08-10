@@ -66,13 +66,17 @@ hl.config({
         -- Please see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Tearing/ before you turn this on
         allow_tearing = false,
 
-        layout = "dwindle", --standard tilingwm layout
+        layout = layout, --set layout
     },
 
-    --layout settings
+    --dwindle layout settings
     dwindle = {
         force_split = 2, --split new windows to the right/bottom
         preserve_split = true, -- You probably want this
+    },
+
+    scrolling = {
+        explicit_column_widths = "0.5,0.75,1.0",
     },
 
     decoration = {
@@ -182,7 +186,7 @@ hl.window_rule({
 })
 
 
--- set default workspaces for multimonitor, make persistent
+-- set default workspaces for multimonitor, make persistent, set logik to use a vertical scrolling direction
 hl.workspace_rule({ workspace = "1", monitor = monitors.iiyama , default = true, persistent = true })
 hl.workspace_rule({ workspace = "2", monitor = monitors.benq , default = true, persistent = true })
-hl.workspace_rule({ workspace = "3", monitor = monitors.logik, default = true, persistent = true })
+hl.workspace_rule({ workspace = "10", monitor = monitors.logik, default = true, persistent = true, layout_opts = { direction = "down" } })
