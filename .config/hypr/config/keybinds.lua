@@ -63,8 +63,13 @@ hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 if layout == "dwindle" then --dwindle
     hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) --toggle split directions (dwindle only)
 elseif layout == "scrolling" then --scrolling
-    hl.bind(mainMod .. " + mouse_down", hl.dsp.layout("move -col"), {mouse = true}) --scroll the columns
-    hl.bind(mainMod .. " + mouse_up",   hl.dsp.layout("move +col"), {mouse = true}) --with the mousewheel
+    hl.bind(mainMod .. " + mouse_down", hl.dsp.layout("move +col"), {mouse = true}) --scroll the columns
+    hl.bind(mainMod .. " + mouse_up",   hl.dsp.layout("move -col"), {mouse = true}) --with the mousewheel
+
+    --TODO: this goes in order of id/index, not workspaces on a monitor, e.g from 1 it skips to 2 or 10
+    -- not another workspace on the same monitor as 1
+    hl.bind(mainMod .. " + SHIFT + mouse_down", hl.dsp.focus({ workspace = "r+1" }), {mouse = true}) --scroll through workspaces
+    hl.bind(mainMod .. " + SHIFT + mouse_up",   hl.dsp.focus({ workspace = "r-1" }), {mouse = true}) --with the mousewheel
 
     hl.bind(mainMod .. " + F", hl.dsp.layout("colresize +conf")) --resize columns
     hl.bind(mainMod .. " + SHIFT + F", hl.dsp.layout("colresize -conf"))

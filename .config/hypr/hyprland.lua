@@ -76,7 +76,8 @@ hl.config({
     },
 
     scrolling = {
-        explicit_column_widths = "0.5,0.75,1.0",
+        column_width = 1.0, --default column width
+        explicit_column_widths = "0.5,0.75,1.0", --column widths to cycle through
     },
 
     decoration = {
