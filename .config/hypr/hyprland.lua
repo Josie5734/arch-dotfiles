@@ -24,7 +24,7 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd(programs.idle) --hypridle
     hl.exec_cmd(programs.bar) --bar
 
-    hl.dispatch(hl.dsp.focus({ monitor = monitors.benq })) --focus main monitor
+    hl.dispatch(hl.dsp.focus({ monitor = monitors.benq })) --focus main monitor (not sure if this is working)
 end)
 
 
@@ -76,7 +76,6 @@ hl.config({
     },
 
     scrolling = {
-        column_width = 1.0, --default column width
         explicit_column_widths = "0.5,0.75,1.0", --column widths to cycle through
     },
 
@@ -186,6 +185,8 @@ hl.window_rule({
     float = true,
 })
 
+-- add window rule for specific programs to be 1.0 column width by default
+hl.window_rule({})
 
 -- set default workspaces for multimonitor, make persistent, set logik to use a vertical scrolling direction
 hl.workspace_rule({ workspace = "1", monitor = monitors.iiyama , default = true, persistent = true })
