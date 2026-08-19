@@ -69,6 +69,10 @@ hl.config({
         layout = layout, --set layout
     },
 
+    input = {
+        kb_layout = "us",
+    },
+
     --dwindle layout settings
     dwindle = {
         force_split = 2, --split new windows to the right/bottom
