@@ -7,9 +7,11 @@ hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(programs.terminal)) --terminal
 hl.bind(mainMod .. " + return", hl.dsp.exec_cmd(programs.terminal)) --alternate terminal launch
 hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd(programs.editor)) --launch zeditor
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(programs.fileManager)) --file manager
+hl.bind("XF86Explorer", hl.dsp.exec_cmd(programs.fileManager)) --file manager via XF86 keys
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(programs.launcher)) --launcher
 
 hl.bind(mainMod .. " + backspace", hl.dsp.exec_cmd(programs.browser)) --firefox window
+hl.bind("XF86HomePage", hl.dsp.exec_cmd(programs.browser)) --firefox window via XF86 keys
 hl.bind(mainMod .. " + SHIFT + backspace", hl.dsp.exec_cmd(programs.browser .. " --private-window")) --firefox private window
 
 hl.bind(mainMod .. " + C", hl.dsp.window.close()) --close window
@@ -17,8 +19,15 @@ hl.bind(mainMod .. " + mouse:274", hl.dsp.window.close()) --alternate close wind
 
 
 
----media--- (requires playerctl)
-hl.bind("code:127",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true }) --play/pause media
+---media---
+hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"), { repeating = true })
+hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"), { repeating = true })
+hl.bind("XF86AudioMute",        hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"), { locked = true })
+
+--Requires playerctl
+hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
+hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"),       { locked = true })
 
 
 
@@ -88,6 +97,7 @@ local dedicated = mainMod .. " + CTRL" --shorten command
 
 -- whatsapp
 hl.bind(dedicated .. " + 1", hl.dsp.workspace.toggle_special("1.whatsapp"))
+hl.bind("XF86Mail", hl.dsp.workspace.toggle_special("1.whatsapp")) --open via XF86 mail button (would normally be unused)
 hl.workspace_rule({ workspace = "special:1.whatsapp",on_created_empty = programs.browser .. " --new-window web.whatsapp.com" })
 
 --terminal
