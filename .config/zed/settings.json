@@ -26,6 +26,11 @@
   //for TODO highlighting extention
   "semantic_tokens": "combined",
   "languages": {
+    "CSharp": {
+      "language_servers": ["!csharp-ls", "!roslyn", "omnisharp", "..."],
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
     "C++": {
       "preferred_line_length": 1000,
       "format_on_save": "on",

@@ -11,8 +11,11 @@ hl.bind("XF86Explorer", hl.dsp.exec_cmd(programs.fileManager)) --file manager vi
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(programs.launcher)) --launcher
 
 hl.bind(mainMod .. " + backspace", hl.dsp.exec_cmd(programs.browser)) --firefox window
+hl.bind(mainMod .. " + code:49", hl.dsp.exec_cmd(programs.browser)) --firefox window (via grave key "`~")
 hl.bind("XF86HomePage", hl.dsp.exec_cmd(programs.browser)) --firefox window via XF86 keys
 hl.bind(mainMod .. " + SHIFT + backspace", hl.dsp.exec_cmd(programs.browser .. " --private-window")) --firefox private window
+hl.bind(mainMod .. " + SHIFT + code:49", hl.dsp.exec_cmd(programs.browser .. " --private-window")) --firefox private window (via grave key "`~")
+hl.bind(mainMod .. " + O", hl.dsp.exec_cmd("obsidian")) --obsidian notes
 
 hl.bind(mainMod .. " + C", hl.dsp.window.close()) --close window
 hl.bind(mainMod .. " + mouse:274", hl.dsp.window.close()) --alternate close window with middle mouse click
