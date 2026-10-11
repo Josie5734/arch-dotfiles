@@ -103,3 +103,31 @@
 2026-09-20 19:51:54 Success.
 2026-09-20 19:51:54 Latest version is 1.13.7
 2026-09-20 19:51:54 App is up to date.
+2026-09-21 18:46:01 Loaded main app package /usr/lib/obsidian/obsidian.asar
+2026-09-21 18:46:01 Checking for update using Github
+2026-09-21 18:46:01 Success.
+2026-09-21 18:46:01 Latest version is 1.13.7
+2026-09-21 18:46:01 App is up to date.
+2026-09-26 09:43:48 Loaded main app package /usr/lib/obsidian/obsidian.asar
+2026-09-26 09:43:48 Checking for update using Github
+2026-09-26 09:43:48 Success.
+2026-09-26 09:43:48 Latest version is 1.13.7
+2026-09-26 09:43:48 App is up to date.
+2026-09-26 21:28:55 Loaded main app package /usr/lib/obsidian/obsidian.asar
+2026-09-26 21:28:55 Checking for update using Github
+2026-09-26 21:28:56 Success.
+2026-09-26 21:28:56 Latest version is 1.13.7
+2026-09-26 21:28:56 App is up to date.
+2026-10-04 12:39:34 Loaded main app package /usr/lib/obsidian/obsidian.asar
+2026-10-04 12:39:34 Checking for update using Github
+2026-10-04 12:39:34 Success.
+2026-10-04 12:39:34 Latest version is 1.13.7
+2026-10-04 12:39:34 App is up to date.
+2026-10-09 22:57:41 Loaded main app package /usr/lib/obsidian/obsidian.asar
+2026-10-09 22:57:41 Checking for update using Github
+2026-10-09 22:57:42 Success.
+2026-10-09 22:57:42 Latest version is 1.14.4
+2026-10-09 22:57:42 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.14.4/obsidian-1.14.4.asar.gz
+2026-10-09 22:57:44 Verifying hash & signature. Size= 9200670
+2026-10-09 22:57:44 Saving file
+2026-10-09 22:57:44 Update complete.
