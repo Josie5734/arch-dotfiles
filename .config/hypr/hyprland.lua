@@ -70,7 +70,8 @@ hl.config({
     },
 
     input = {
-        kb_layout = "us",
+        kb_layout = "gb,us",
+        kb_options = "grp:win_space_toggles"
     },
 
     --dwindle layout settings
